@@ -1,0 +1,7 @@
+.non-cbd-swiper .swiper-button-prev, .non-cbd-swiper .swiper-button-next{
+  @apply relative border border-solid border-white rounded-full size-10 text-white after:text-xl p-3 after:font-icomoon after:content-['\e909'];
+}
+
+.non-cbd-swiper .swiper-button-next{
+  @apply after:content-['\e908'];
+}

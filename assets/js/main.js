@@ -104,6 +104,22 @@
 				},
 			},
 		})
+
+		function openFancybox() {
+			setTimeout(function () {
+				$('.initialPopup').fancybox().trigger('click');
+			}, 8000);
+		}
+		openFancybox();
+
+		// Fancybox.bind("[data-fancybox]", {
+		// 	// l10n: de,
+		// });
+
+		// var loadOnLink = document.querySelector('.initialPopup');
+		// if (loadOnLink) {
+		//   loadOnLink.click(), 8000;
+		// }
 	})
 }(jQuery));
 

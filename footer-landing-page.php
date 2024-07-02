@@ -46,7 +46,7 @@
             </div> -->
           </div>
         </div>
-        <div id="contactForm" class="lead-form w-full mx-auto max-w-[600px] xl:w-[600px] bg-white rounded-2xl text-ss-black rounded-2xl overflow-hidden">
+        <div id="contactForm" class="lead-form w-full mx-auto max-w-[600px] xl:w-[600px] bg-white rounded-2xl text-ss-black overflow-hidden">
           <div class="heading bg-ss-blue text-white lg:[&_h3]:text-[40px] lg:[&_h3]:mb-0 [&_h3]:text-white px-6 md:px-12 pt-5 md:pt-9 pb-5 md:pb-8">
             <strong class="category">high-end luxury yachts & sailboats <i class="icon-long-arrow-right"></i></strong>
             <h3>Message Us</h3>

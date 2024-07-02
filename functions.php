@@ -79,24 +79,3 @@ function disable_default_theme_scripts_styles()
 	}
 }
 add_action('wp_enqueue_scripts', 'disable_default_theme_scripts_styles', 999);
-
-/*
-Get Script and Style IDs
-Adds inline comment to your frontend pages
-View source code near the
-
-<head> section
-Lists only properly registered scripts
-@ https://digwp.com/2019/03/disable-script-style-added-plugins/
-*/
-function default_inspect_script_style()
-{
-  global $wp_scripts, $wp_styles;
-  echo "\n" . '<!--' . "\n\n";
-  echo 'SCRIPT IDs:' . "\n";
-  foreach ($wp_scripts->queue as $handle) echo $handle . "\n";
-  echo "\n" . 'STYLE IDs:' . "\n";
-  foreach ($wp_styles->queue as $handle) echo $handle . "\n";
-  echo "\n" . '-->' . "\n\n";
-}
-add_action('wp_print_scripts', 'default_inspect_script_style');

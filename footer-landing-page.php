@@ -41,10 +41,9 @@
             </div>
             <p>We require a<span class="font-bold"> 24-hour notice of cancellation.</span></p>
             <p>Beacuse we reserve time specially for you , please make any schedule changes the day before service to avoid incurring a <span class="text-primary font-extrabold">$75 late cancellation fee.</span></p>
-            <div class="flex items-center gap-2">
-              <a href="#">Read More</a>
-              <i class="icon-arrow-right streched-link"></i>
-            </div>
+            <!-- <div class="flex items-center gap-2">
+              <a href="#">Read More <i class="icon-arrow-right streched-link"></i></a>
+            </div> -->
           </div>
         </div>
         <div id="contactForm" class="lead-form w-full mx-auto max-w-[600px] xl:w-[600px] bg-white rounded-2xl text-ss-black rounded-2xl overflow-hidden">
@@ -53,8 +52,8 @@
             <h3>Message Us</h3>
           </div>
           <div class="px-6 md:px-12 pt-9 pb-12">
-            <?php //echo do_shortcode('[wpforms id="41390" title="false"]');?>
-            <?php echo do_shortcode('[wpforms id="41392" title="false"]');?>
+            <?php echo do_shortcode('[wpforms id="41390" title="false"]');?>
+            <?php //echo do_shortcode('[wpforms id="41392" title="false"]');?>
           </div>
         </div>
       </div>

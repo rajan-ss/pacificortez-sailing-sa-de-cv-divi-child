@@ -289,19 +289,6 @@ include 'header-landing-page.php'; ?>
 						</div>
 					</div>
 				</div>
-				<div class="swiper-slide h-auto">
-					<div class="h-full p-5 pb-8 bg-gray-100 rounded border-solid border border-primary card-shadow card">
-						<picture class="pb-8 [&_img]:w-full">
-							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" type="image/jpg">
-							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
-						</picture>
-						<div class="[&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
-							<h4>Whale Watching</h4>
-							<h6>Discover the Majestic Whales of Cabo</h6>
-							<p>Be awestruck as you encounter the gentle giants of the deep. From December through April, watch in wonder as the humpback whales breach the surface, showcasing their sheer size and power.</p>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 		<div class="flex justify-center gap-6 mt-6 md:mt-8 lg:mt-10 2xl:mt-12 flex-wrap">
@@ -625,7 +612,7 @@ include 'header-landing-page.php'; ?>
 		<span class="block font-medium lg:text-lg mb-4">Use <span class="text-ss-red uppercase italic">Summer24</span> code to redeem at checkout.</span>
 		<ul class="flex flex-wrap justify-center gap-4">
 			<li>
-				<a href="#" class="btn btn-secondary relative overflow-hidden">
+				<a href="https://www.cabosailing.com/luxury-sailboats" class="btn btn-secondary relative overflow-hidden">
 					<span class="absolute inset-0 bg-white"></span>
 					<span class="absolute inset-0 flex justify-center items-center">
 						Book a sailboat
@@ -635,7 +622,7 @@ include 'header-landing-page.php'; ?>
 			</li>
 
 			<li>
-				<a href="#" class="btn btn-secondary relative overflow-hidden">
+				<a href="https://www.cabosailing.com/luxury-yachts" class="btn btn-secondary relative overflow-hidden">
 					<span class="absolute inset-0 bg-white"></span>
 					<span class="absolute inset-0 flex justify-center items-center">
 						Book a Yacht

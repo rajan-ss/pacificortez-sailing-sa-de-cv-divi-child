@@ -52,3 +52,8 @@
   @apply
   opacity-100;
 }
+
+.fancybox-content {
+  @apply 
+  max-w-[600px];
+}

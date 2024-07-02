@@ -16,6 +16,11 @@
   w-full;
 }
 
+.lead-form div.wpforms-container-full .wpforms-form .wpforms-field.one-half {
+  @apply
+  sm:w-1/2;
+}
+
 .lead-form div.wpforms-container-full .wpforms-form .wpforms-submit-container{
   @apply
   px-2;
@@ -25,7 +30,7 @@
   @apply 
   m-0;
 }
-
+/* 
 #wpforms-41392-field_8-container,
 #wpforms-41392-field_6-container,
 #wpforms-41392-field_3-container,
@@ -33,7 +38,7 @@
   @apply
   sm:w-1/2
   ;
-}
+} */
 
 .lead-form .wpforms-field-container {
 @apply
@@ -45,7 +50,10 @@ flex-wrap
 
 .lead-form div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
   @apply
+  min-h-12
   h-12
+  resize-none
+  overflow-hidden
   ;
 }
 

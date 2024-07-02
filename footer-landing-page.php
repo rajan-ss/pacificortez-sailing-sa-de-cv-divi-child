@@ -1,7 +1,7 @@
 </main>
 
 <footer class="site-footer">
-  <section class=" relative bg-[url('../../assets/images/get-in-touch-bg-img')] bg-no-repeat bg-cover py-10 lg:py-12 xl:py-16 before:absolute before:inset-0 before:bg-gradient-to-r from-black from-1.25% via-black/90 via-42.53% to-white/0 to-99.24% before:opacity-90">
+  <section id="message-us" class=" relative bg-[url('../../assets/images/get-in-touch-bg-img')] bg-no-repeat bg-cover py-10 lg:py-12 xl:py-16 before:absolute before:inset-0 before:bg-gradient-to-r from-black from-1.25% via-black/90 via-42.53% to-white/0 to-99.24% before:opacity-90">
     <div class="container relative z-10 text-white [&_h2]:text-white">
       <div class="xl:flex justify-center items-center max-lg:flex-wrap max-lg:gap-y-12 ">
         <div class="xl:flex-1 lg:pr-9 max-xl:mb-8">

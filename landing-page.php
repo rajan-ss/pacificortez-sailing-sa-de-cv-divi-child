@@ -648,10 +648,7 @@ include 'header-landing-page.php'; ?>
 </section>
 <!-- /section {Testimonials} -->
 
-
-<a href="#popup-book" class="hidden initialPopup" data-fancybox></a>
-
-<div id="popup-book" class="hidden w-full max-w-[800px] relative">
+<div class="initialPopup w-full max-w-[800px] relative" style="display: none;">
 	<div class="before:absolute before:inset-0 before:bg-[linear-gradient(180deg,rgba(227,239,239,0.94)_0%,rgba(227,239,239,0.94)_100%)] absolute z-[-1] bg-cover bg-center inset-0 bg-[url('../../assets/images/waves-bg.jpg')]">
 	</div>
 	<div class="[&_h2]:text-[28px] [&_h2]:text-ss-red [&_h2]:italic text-center">

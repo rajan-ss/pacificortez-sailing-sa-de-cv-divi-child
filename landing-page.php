@@ -577,6 +577,58 @@ include 'header-landing-page.php'; ?>
 							<p>Cabo Sailing was fabulous! We did a private charter and could not have had more fun. Our crew (Gary and Jesus) were absolutely the best! Highly recommend this company.</p>
 						</div>
 					</div>
+					<div class="swiper-slide">
+						<div class="flex flex-col sm:flex-row sm:space-x-5">
+							<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
+								<span class="h4 mb-0 font-semibold uppercase">CJ</span>
+							</div>
+							<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
+								<p>CJ Johnson</p>
+								<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
+							<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.
+							The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.
+							</p>
+							<a href="#content-3" data-fancybox>Readmore</a>
+							<div id="content-3" class="hidden">
+								<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.
+								The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex flex-col sm:flex-row sm:space-x-5">
+							<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
+								<span class="h4 mb-0 font-semibold uppercase">TF</span>
+							</div>
+							<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
+								<p>Ted Fritz</p>
+								<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+									<li><i class="icon-star"></i></li>
+								</ul>
+							</div>
+						</div>
+						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
+							<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience.  The crew was phenomenal.  The experience they provided was once in a lifetime.  3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.
+							</p>
+							<a href="#content-4" data-fancybox>Readmore</a>
+							<div id="content-4" class="hidden">
+								<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience.  The crew was phenomenal.  The experience they provided was once in a lifetime.  3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<!-- If we need navigation buttons -->

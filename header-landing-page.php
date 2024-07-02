@@ -18,8 +18,8 @@
 
   <div class="site-wrapper">
 
-    <header class="site-header py-8 lg:py-14 absolute left-0 right-0 top-0 z-[999]">
-      <div class="container flex flex-wrap items-center">
+    <header class="site-header absolute left-[16px] right-[16px] top-[40px] z-[999]">
+      <div class="container py-3 rounded-lg flex flex-wrap items-center border-solid border-primary/10 bg-ss-grey-100/5 [box-shadow:4px_6px_24px_0px_rgba(0,_0,_0,_0.10)]">
         <div class="w-[87px]">
           <picture class="">
             <source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-sailing-logo.png" type="image/png">
@@ -29,7 +29,7 @@
         <div class="flex-1 flex justify-end">
           <ul class="flex flex-wrap gap-[15px]">
             <li class="max-sm:hidden">
-              <a href="#" class="btn btn-secondary relative overflow-hidden">
+              <a href="#contactForm" class="btn btn-secondary js-has-smooth relative overflow-hidden">
                 <span class="absolute inset-0 bg-white"></span>
                 <span class="absolute inset-0 flex justify-center items-center">
                   Contact Us
@@ -38,7 +38,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="btn btn-primary relative overflow-hidden">
+              <a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
                 <span class="absolute inset-0 bg-white"></span>
                 <span class="absolute inset-0 flex justify-center items-center">
                   Book Now
@@ -63,7 +63,7 @@
             <strong class="block text-primary font-medium">Luxury Yachts & Sailing Rentals in Cabo San Lucas, Mexico</strong>
             <p>Our dedicated crew is committed to exceed your expectations from this moment on. We invite you to choose either your desired boat or desired cruise below.</p>
             <div class="pt-6 ">
-              <a href="#" class="btn btn-primary relative overflow-hidden">
+              <a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
                 <span class="absolute inset-0 bg-white"></span>
                 <span class="absolute inset-0 flex justify-center items-center">
                   Book Now

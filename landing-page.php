@@ -56,7 +56,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 18 guests.</li>
 									<li>Enjoy Cabo San Lucas on a luxurious 42 feet Sundancer yacht. With a large padded cabin-top cushions and a shaded cockpit, this luxury sport cruiser will accommodate you with style while enjoying snorkeling or sunset cruise in Cabo San Lucas.</li>
 								</ul>
-								<a href="#" class="btn btn-white relative overflow-hidden">
+								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -88,7 +88,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 12 guests.</li>
 									<li>Experience a truly modern & luxurious yacht. Our 45′ yacht is a perfect combination of a comfortable and stylish yacht with all the amenities you need for a fun and memorable time on the water.</li>
 								</ul>
-								<a href="#" class="btn btn-white relative overflow-hidden">
+								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -120,7 +120,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 20 guests.</li>
 									<li>Spoil yourself with one of our top notch 46′ luxury yachts, with all the amenities needed for a relaxing, memorable time while enjoying Los Cabos snorkeling sites and awing sunsets.</li>
 								</ul>
-								<a href="#" class="btn btn-white relative overflow-hidden">
+								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -150,7 +150,7 @@ include 'header-landing-page.php'; ?>
 									<li>Cap. 14 guests.</li>
 									<li>Explore the sparkling turquoise waters of the Sea of Cortez on this sightseeing snorkel adventure or romantic Sunset Cruise of Los Cabos’ Land’s End Arch!</li>
 								</ul>
-								<a href="#" class="btn btn-white relative overflow-hidden">
+								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -182,7 +182,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 12 guests.</li>
 									<li>Sail Cabo San Lucas on a beautiful private 38 feet sailing boat and snorkel in tropical waters alongside colorful sea life.</li>
 								</ul>
-								<a href="#" class="btn btn-white relative overflow-hidden">
+								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -214,7 +214,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise. / Cap. 14 guests.</li>
 									<li>Out two 42′ luxury sailing boats await for a fun day on the water. Great snorkeling at Cabo San Lucas bay and a relaxed sailing admiring a colorful sunset.</li>
 								</ul>
-								<a href="#" class="btn btn-white relative overflow-hidden">
+								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -305,14 +305,14 @@ include 'header-landing-page.php'; ?>
 			</div>
 		</div>
 		<div class="flex justify-center gap-6 mt-6 md:mt-8 lg:mt-10 2xl:mt-12 flex-wrap">
-			<a href="#" class="btn btn-white relative overflow-hidden">
+			<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
 				<span class="absolute inset-0 bg-ss-blue"></span>
 				<span class="absolute inset-0 flex justify-center items-center">
 					Shop Online
 				</span>
 				Shop Online
 			</a>
-			<a href="#" class="btn btn-primary relative overflow-hidden">
+			<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 				<span class="absolute inset-0 bg-white"></span>
 				<span class="absolute inset-0 flex justify-center items-center">
 					Request a Quote
@@ -440,7 +440,7 @@ include 'header-landing-page.php'; ?>
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
 							<h2>Save 20% when booking a second Cabo boat tour</h2>
-							<a href="#" class="btn btn-primary relative overflow-hidden">
+							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
 									Book Now
@@ -465,7 +465,7 @@ include 'header-landing-page.php'; ?>
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
 							<h2>*FREE Prosecco / Vodka / Whisky / Tequila</h2>
-							<a href="#" class="btn btn-primary relative overflow-hidden">
+							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
 									Book Now
@@ -490,7 +490,7 @@ include 'header-landing-page.php'; ?>
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
 							<h2>Save 15% on your desired cruise.</h2>
-							<a href="#" class="btn btn-primary relative overflow-hidden">
+							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
 									Book Now

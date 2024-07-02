@@ -29,6 +29,9 @@ module.exports = {
         },
         'ss-red': {
           DEFAULT: '#E02B20',
+        },
+        'ss-black': {
+          DEFAULT: '#404040',
         }
       },
       screens: {

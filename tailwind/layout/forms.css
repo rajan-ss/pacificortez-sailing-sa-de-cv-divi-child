@@ -3,3 +3,71 @@
   @apply w-full
   h-12;
 }
+
+.lead-form div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  @apply 
+  font-light;
+}
+
+.lead-form div.wpforms-container-full .wpforms-form .wpforms-field {
+  @apply
+  py-2
+  px-2
+  w-full;
+}
+
+.lead-form div.wpforms-container-full .wpforms-form .wpforms-submit-container{
+  @apply
+  px-2;
+}
+
+.lead-form div.wpforms-container-full {
+  @apply 
+  m-0;
+}
+
+#wpforms-41392-field_8-container,
+#wpforms-41392-field_6-container,
+#wpforms-41392-field_3-container,
+#wpforms-41392-field_9-container  {
+  @apply
+  sm:w-1/2
+  ;
+}
+
+.lead-form .wpforms-field-container {
+@apply
+flex
+flex-wrap
+-mx-2
+;
+}
+
+.lead-form div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
+  @apply
+  h-12
+  ;
+}
+
+.lead-form div.wpforms-container-full .wpforms-form button[type=submit] {
+  @apply 
+  inline-flex
+  font-base
+  items-center
+  justify-center
+  cursor-pointer
+  border
+  border-solid
+  rounded-[12px]
+  bg-primary
+  text-black
+  border-primary
+  hover:bg-primary/75
+  hover:text-black
+  hover:border-primary/75
+  hover:[box-shadow:0px_8px_24px_0px_rgba(239,_205,_72,_0.24)]
+  focus:bg-primary/75
+  focus:text-black
+  focus:border-primary/75
+  focus:ring-primary/75;
+}

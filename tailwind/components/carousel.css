@@ -1,0 +1,81 @@
+/* .non-cbd-swiper .swiper-button-prev, .non-cbd-swiper .swiper-button-next{
+  @apply relative border border-solid border-white rounded-full size-10 text-white after:text-xl p-3 after:font-icomoon after:content-['\e909'];
+}
+
+.non-cbd-swiper .swiper-button-next{
+  @apply after:content-['\e908'];
+} */
+
+.swiper.banner-slider .swiper-pagination {
+  @apply
+  items-center
+  flex
+  justify-center
+  ;
+}
+
+.swiper.banner-slider .swiper-pagination-bullet {
+  @apply
+  size-[10px]
+  transition-all
+  bg-ss-blue/80
+  ;
+}
+
+.swiper.banner-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply
+  size-[14px]
+  bg-ss-blue
+  ;
+}
+
+.testimonial-slider{
+  @apply w-full lg:max-w-[450px] 2xl:max-w-[540px] lg:min-h-[400px] flex flex-col justify-between max-lg:items-center px-4 pt-8 gap-y-9 lg:gap-y-5;
+}
+
+.testimonial-slider .navigation-buttons{
+  @apply flex min-h-[52px] space-x-10;
+}
+
+.testimonial-slider .swiper-slide{
+  @apply flex flex-col justify-between space-y-5 p-[30px] bg-white rounded-xl border border-solid border-ss-blue/15 h-fit;
+}
+
+.testimonial-slider .swiper-slide-active{
+  @apply shadow-[0_4px_30px_0px] shadow-ss-grey-900/10;
+}
+
+.testimonial-slider .swiper-button-prev, .testimonial-slider .swiper-button-next{
+  @apply relative border border-solid bg-white border-black rounded-full size-12 text-black after:text-xl p-3 after:font-icomoon after:content-['\e909'] hover:bg-primary;
+}
+
+.testimonial-slider .swiper-button-next{
+  @apply after:content-['\e908'];
+}
+
+.services-swiper .swiper-button-prev, .services-swiper .swiper-button-next{
+  @apply border border-solid border-ss-blue rounded-full size-10 text-ss-blue after:text-xl p-3 after:font-icomoon after:content-['\e908'] static m-0;
+}
+
+.services-swiper .swiper-button-next{
+  @apply after:content-['\e909'];
+}
+
+.services-swiper .swiper-slide{
+  @apply
+  duration-500
+  ease-in-out;
+}
+.swiper-slide.swiper-slide-active .bg-gray-100.card {
+  @apply
+  bg-white;
+}
+
+.services-swiper .swiper-button-next, .swiper-button-prev{
+  @apply
+  hover:bg-primary
+  focus:bg-primary
+  hover:border-transparent
+  focus:border-transparent
+  duration-300;
+}

@@ -1,0 +1,5 @@
+.lead-form div.wpforms-container-full .wpforms-form input[type=text],
+.lead-form div.wpforms-container-full .wpforms-form input[type=email] {
+  @apply w-full
+  h-12;
+}

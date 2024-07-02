@@ -1,0 +1,69 @@
+@layer components {
+	.btn {
+		@apply inline-flex
+		font-base
+		items-center
+		justify-center
+		cursor-pointer
+		px-6
+		py-3
+		text-base
+		text-center
+		!leading-normal
+		font-normal
+		no-underline
+		select-none
+		border
+		border-solid
+		rounded-[12px]
+		transition
+		ease-in-out
+		duration-500
+		focus:outline-none
+		focus:ring
+		focus:ring-offset-1
+		focus:ring-opacity-50
+		disabled:opacity-75
+		disabled:cursor-not-allowed;
+	}
+	
+	.btn-primary {
+		@apply bg-primary
+		text-black
+		border-primary
+		hover:bg-primary/75
+		hover:text-black
+		hover:border-primary/75
+		hover:[box-shadow:0px_8px_24px_0px_rgba(239,_205,_72,_0.24)]
+		focus:bg-primary/75
+		focus:text-black
+		focus:border-primary/75
+		focus:ring-primary/75
+	}
+	
+	.btn-secondary {
+		@apply bg-ss-blue
+		text-white
+		border-white
+		hover:text-black
+		hover:[box-shadow:0px_8px_24px_0px_rgba(239,_205,_72,_0.24)]
+		focus:bg-primary/75
+		focus:text-black
+		hover:border-white
+	}
+
+	.btn-white {
+		@apply bg-white
+		text-ss-blue
+		border-ss-blue
+		hover:text-white
+		hover:[box-shadow:0px_8px_24px_0px_rgba(239,_205,_72,_0.24)]
+		focus:bg-primary/75
+		focus:text-black
+		hover:border-white
+	}
+	
+	.btn-block {
+		@apply block w-full;
+	}
+}

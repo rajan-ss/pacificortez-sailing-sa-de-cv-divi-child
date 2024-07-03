@@ -8,14 +8,14 @@
           <strong class="category text-white"> Contact Us <span class="icon-long-arrow-right text-white"></span></strong>
           <h2>Get In Touch With Us.</h2>
           <div class="flex max-lg:justify-center justify-start flex-wrap -mx-4 xl:-mx-9 mb-5 sm:mb-6 lg:mb-8 2xl:mb-10"> <!-- Wrapper -->
-            <div class="w-full sm:w-1/2 [&_p]:relative [&_p]:before:absolute [&_p]:before:bottom-[0.35rem] [&_p]:pl-9 [&_p]:before:left-0 [&_p]:before:bg-white [&_p]:before:w-[29px] [&_p]:before:h-[2px] [&_p]:before:rounded-lg px-4 lg:px-9 [&_p]:text-[12px]">
+            <div class="w-full sm:w-1/2 [&_p]:relative [&_p]:before:absolute [&_p]:before:bottom-[0.35rem] [&_p]:pl-9 [&_p]:before:left-0 [&_p]:before:bg-white [&_p]:before:w-[29px] [&_p]:before:h-[2px] [&_p]:before:rounded-lg px-4 lg:px-9 [&_p]:text-[12px] [&_p]:uppercase">
               <p>Phone Number and email</p>
               <div class="flex flex-col justify-around [&_a]:relative [&_a]:pl-14 [&_a]:text-white hover:[&_a]:text-white/50 [&_a]:duration-300 pb-8 min-h-[148px]">
                 <a href="tel:526241438485"><i class="icon-call bg-white/15 size-[40px] flex justify-center items-center rounded-full absolute top-1/2 left-0 -translate-y-1/2"></i>+52 624 143 8485</a>
-                <a href="tel:526241916997"><i class="icon-whatsapp bg-white/15 size-[40px] flex justify-center items-center rounded-full absolute top-1/2 left-0 -translate-y-1/2"></i>52 624 191 6997 <span>(Whatsapp)</span></a>
+                <a href="tel:526241916997"><i class="icon-whatsapp bg-white/15 size-[40px] flex justify-center items-center rounded-full absolute top-1/2 left-0 -translate-y-1/2"></i>52 624 191 6997 <span class="text-primary">(Whatsapp)</span></a>
               </div>
             </div>
-            <div class="w-full sm:w-1/2 min-h-[148px] [&_p]:relative [&_p]:before:absolute [&_p]:before:bottom-[0.35rem] [&_p]:pl-9 [&_p]:before:left-0 [&_p]:before:bg-white [&_p]:before:w-[29px] [&_p]:before:h-[2px] [&_p]:before:rounded-lg px-4 xl:px-9 [&_p]:text-[12px]">
+            <div class="w-full sm:w-1/2 min-h-[148px] [&_p]:relative [&_p]:before:absolute [&_p]:before:bottom-[0.35rem] [&_p]:pl-9 [&_p]:before:left-0 [&_p]:before:bg-white [&_p]:before:w-[29px] [&_p]:before:h-[2px] [&_p]:before:rounded-lg px-4 xl:px-9 [&_p]:text-[12px] [&_p]:uppercase">
               <p>Phone Number and email</p>
               <div class="flex flex-col justify-evenly [&_a]:relative [&_a]:pl-14 [&_a]:text-white hover:[&_a]:text-white/50 [&_a]:duration-300 min-h-[124px]">
                 <a href="https://maps.app.goo.gl/dCaHQmoBAK4Jx4Yb8" target="_blank"><i class="icon-pin bg-white/15 size-[40px] flex justify-center items-center rounded-full absolute top-1/2 left-0 -translate-y-1/2"></i>Plaza Nautica Local C-5
@@ -34,11 +34,8 @@
             </div>
           </div>
           <!-- <span class="copyright">Footer Copyright text goes here</span> -->
-          <div class="bg-white/15 p-5 border-solid border-[0.5px] border-primary/50 max-w-[580px] max-lg:mx-auto [&_h3]:text-white">
-            <div class="flex items-center gap-x-5 [&_h3]:mb-0 mb-4">
-              <h3>Cancellation Policy</h3>
-              <i class="icon-long-arrow-right text-5xl"></i>
-            </div>
+          <div class="bg-white/15 p-5 border-solid border-[0.5px] border-primary/50 max-w-[580px] max-lg:mx-auto [&_h3]:text-white [&_p]:pb-0">
+            <strong class="category white md:text-[20px]">Cancellation Policy <i class="icon-long-arrow-right text-white"></i></strong>
             <p>We require a<span class="font-bold"> 24-hour notice of cancellation.</span></p>
             <p>Beacuse we reserve time specially for you , please make any schedule changes the day before service to avoid incurring a <span class="text-primary font-extrabold">$75 late cancellation fee.</span></p>
             <!-- <div class="flex items-center gap-2">

@@ -11,19 +11,29 @@
   inline-flex
   font-medium
   gap-4
-  items-center
+  items-start
+  md:items-center
   text-primary
   lg:text-xl
   uppercase
   italic
   tracking-wide
   [&_i]:text-[53px]
+  [&_i]:leading-[25px]
   ;
 }
 
 .category.ss-blue {
   @apply
   text-ss-blue;
+}
+
+.category.white {
+  @apply
+  text-white
+  not-italic
+  max-md:[&_i]:text-[28px]
+  ;
 }
 
 .animation{

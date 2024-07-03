@@ -6,7 +6,7 @@
  */
 include 'header-landing-page.php'; ?>
 
-<section id="vessels" class="py-10 md:py-16 lg:py-28 bg-ss-dark">
+<section id="vessels" class="pt-16 pb-10 md:py-16 lg:py-28 bg-ss-dark">
 	<div class="container">
 		<div class="text-center max-w-[827px] mx-auto lg:mb-[60px]">
 			<strong class="category ss-blue">
@@ -256,7 +256,7 @@ include 'header-landing-page.php'; ?>
 							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-01.jpg" type="image/jpg">
 							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-01.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
-						<div class="[&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
+						<div class="[&_h4]:text-ss-blue [&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
 							<h4>Cabo Snorkeling</h4>
 							<h6>Discover the Wonders of Cabo's Underwater World</h6>
 							<p>Dive into the crystal-clear waters of the Sea of Cortez and uncover the vibrant marine life. Leave in awe of the natural beauty that lies beneath the surface.</p>
@@ -269,7 +269,7 @@ include 'header-landing-page.php'; ?>
 							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-02.jpg" type="image/jpg">
 							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-02.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
-						<div class="[&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
+						<div class="[&_h4]:text-ss-blue [&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
 							<h4>Cabo Sunset Cruise</h4>
 							<h6>Sail Into The Golden Glow Of The Day's End</h6>
 							<p>Witness the awe-inspiring sunsets at the land's end in the stunning Sea of Cortez. The ultimate way to savor the end of your day in this stunning coastal destination.</p>
@@ -282,7 +282,7 @@ include 'header-landing-page.php'; ?>
 							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" type="image/jpg">
 							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
-						<div class="[&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
+						<div class="[&_h4]:text-ss-blue [&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
 							<h4>Whale Watching</h4>
 							<h6>Discover the Majestic Whales of Cabo</h6>
 							<p>Be awestruck as you encounter the gentle giants of the deep. From December through April, watch in wonder as the humpback whales breach the surface, showcasing their sheer size and power.</p>
@@ -355,42 +355,42 @@ include 'header-landing-page.php'; ?>
 		</div>
 		<div class="flex justify-center flex-wrap -mx-5 gap-y-5 lg:gap-y-7 2xl:gap-y-10">
 			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6 [&_h3]:text-ss-blue">
 					<h3>Luxurious Boats</h3>
 					<h4>Sail Away in Luxury</h4>
 					<p>Our boats are not just meticulously maintained; they’re decked out with the latest amenities to make your journey incredibly comfortable and pleasurable, the perfect setting for an unforgettable adventure.</p>
 				</div>
 			</div> <!-- /Card -->
 			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6 [&_h3]:text-ss-blue">
 					<h3>Exclusive Access</h3>
 					<h4>Discover Cabo's Hidden Wonders</h4>
 					<p>With our intimate knowledge of the area, we’ll whisk you away to the most awe-inspiring, beautiful beaches and breathtaking vistas that most tourists never get to see.</p>
 				</div>
 			</div> <!-- /Card -->
 			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6 [&_h3]:text-ss-blue">
 					<h3>Expert Guides</h3>
 					<h4>Passionate Experts, Unforgettable Experiences</h4>
 					<p>Our knowledgeable guides are passionate about sharing their deep knowledge of the local marine life, history, and geography. Get ready to be captivated by fascinating insights as you discover the wonders of the Cabo coastline.</p>
 				</div>
 			</div> <!-- /Card -->
 			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6 [&_h3]:text-ss-blue">
 					<h3>Premium Bar</h3>
 					<h4>Sail Away with Delightful Drinks</h4>
 					<p>Elevate your sailing journey with the perfect blend of breathtaking scenery and premium beverages. Our top-notch bar service will make your trip truly unforgettable, leaving you feeling refreshed, rejuvenated, and overjoyed.</p>
 				</div>
 			</div> <!-- /Card -->
 			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6 [&_h3]:text-ss-blue">
 					<h3>Social Connection</h3>
 					<h4>Sail Away with Your Loved Ones Into Unforgettable Moments</h4>
 					<p>Gather your friends and family for an exhilarating sailing adventure tailored just for you. Create cherished memories with customized itineraries that cater to all your desires, making every moment on the water special and unforgettable.</p>
 				</div>
 			</div> <!-- /Card -->
 			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6 [&_h3]:text-ss-blue">
 					<h3>Safety First</h3>
 					<h4>Sail with Confidence, Ease, and Peace of Mind</h4>
 					<p>When you set sail with us, your safety and well-being is our top priority. Our skilled and knowledgeable crew are well trained in safety protocols and emergency procedures, so you can enjoy a thrilling yet secure sailing adventure.</p>
@@ -432,9 +432,9 @@ include 'header-landing-page.php'; ?>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
-									Book Now
+									Know More
 								</span>
-								Book Now
+								Know More
 							</a>
 						</div>
 					</div>
@@ -457,9 +457,9 @@ include 'header-landing-page.php'; ?>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
-									Book Now
+									Know More
 								</span>
-								Book Now
+								Know More
 							</a>
 						</div>
 					</div>
@@ -482,9 +482,9 @@ include 'header-landing-page.php'; ?>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
-									Book Now
+									Know More
 								</span>
-								Book Now
+								Know More
 							</a>
 						</div>
 					</div>
@@ -496,13 +496,10 @@ include 'header-landing-page.php'; ?>
 </section>
 <!-- /section {Special Offers} -->
 
-<section class="py-10 md:py-16 lg:py-32">
+<section class="py-10 md:py-16 xl:py-32">
 	<div class="container">
-		<div class="lg:mb-12 [&_h2]:!text-center [&_p]:text-xl [&_p]:italic [&_p]:font-medium [&_p]:uppercase [&_i]:text-[53px] [&_p]:mb-0">
-			<div class="flex items-center justify-center space-x-3 mb-3">
-				<i class="icon-long-arrow-left text-black"></i>
-				<p>Testimonials</p><i class="icon-long-arrow-right text-black"></i>
-			</div>
+		<div class="lg:mb-12 text-center [&_p]:text-xl [&_p]:italic [&_p]:font-medium [&_p]:uppercase [&_i]:text-[53px] [&_p]:mb-0">
+			<strong class="category ss-blue"><i class="icon-long-arrow-left"></i>Testimonials<i class="icon-long-arrow-right"></i></strong>
 			<h2>What Our Client Says</h2>
 		</div>
 		<div class="relative flex flex-col-reverse lg:flex-row lg:gap-5 xl::gap-x-20 justify-between ">
@@ -528,7 +525,7 @@ include 'header-landing-page.php'; ?>
 						</div>
 						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
 							<p>Yesterday used their services and WOW.. Treated like royalty! The thoughtfulness of the staff, cleanliness of the boat, the food and drinks 🎉🎉 everything was amazing! Definitely recommend - consider us lifetime customers 🙏🏼🙏🏼</p>
-							<a href="#content-1" data-fancybox>Readmore</a>
+							<a href="#content-1" class="capitalize" data-fancybox>Read more</a>
 							<div id="content-1" class="hidden">
 								<p>Yesterday used their services and WOW.. Treated like royalty! The thoughtfulness of the staff, cleanliness of the boat, the food and drinks 🎉🎉 everything was amazing!
 									Definitely recommend - consider us lifetime customers 🙏🏼🙏🏼</p>
@@ -553,7 +550,7 @@ include 'header-landing-page.php'; ?>
 						</div>
 						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
 							<p>We had an amazing time with Ali and Paul during our private snorkel and whale watching excursion. They were extremely friendly and helpful and the lunch provided was amazing! I can't recommend these guys enough! Thank you so much for being the highlight of our entire Cabo trip.</p>
-							<a href="#content-2" data-fancybox>Readmore</a>
+							<a href="#content-2" class="capitalize" data-fancybox>Read more</a>
 							<div id="content-2" class="hidden">
 								<p>We had an amazing time with Ali and Paul during our private snorkel and whale watching excursion. They were extremely friendly and helpful and the lunch provided was amazing! I can't recommend these guys enough! Thank you so much for being the highlight of our entire Cabo trip.</p>
 							</div>
@@ -599,7 +596,7 @@ include 'header-landing-page.php'; ?>
 							<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.
 							The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.
 							</p>
-							<a href="#content-3" data-fancybox>Readmore</a>
+							<a href="#content-3" class="capitalize" data-fancybox>Read more</a>
 							<div id="content-3" class="hidden">
 								<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.
 								The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.</p>
@@ -625,7 +622,7 @@ include 'header-landing-page.php'; ?>
 						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
 							<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience.  The crew was phenomenal.  The experience they provided was once in a lifetime.  3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.
 							</p>
-							<a href="#content-4" data-fancybox>Readmore</a>
+							<a href="#content-4" class="capitalize" data-fancybox>Read more</a>
 							<div id="content-4" class="hidden">
 								<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience.  The crew was phenomenal.  The experience they provided was once in a lifetime.  3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.</p>
 							</div>

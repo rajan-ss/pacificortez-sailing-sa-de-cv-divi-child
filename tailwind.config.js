@@ -25,6 +25,7 @@ module.exports = {
         'ss-grey': {
           DEFAULT : '#404040',
           100 : '#F0F2F5',
+          800: '#E3E3E3',
           900 : '#353535',
         },
         'ss-red': {

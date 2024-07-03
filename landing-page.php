@@ -56,7 +56,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 18 guests.</li>
 									<li>Enjoy Cabo San Lucas on a luxurious 42 feet Sundancer yacht. With a large padded cabin-top cushions and a shaded cockpit, this luxury sport cruiser will accommodate you with style while enjoying snorkeling or sunset cruise in Cabo San Lucas.</li>
 								</ul>
-								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
+								<a href="https://www.cabosailing.com/book-now/private-42-yacht/" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -88,7 +88,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 12 guests.</li>
 									<li>Experience a truly modern & luxurious yacht. Our 45′ yacht is a perfect combination of a comfortable and stylish yacht with all the amenities you need for a fun and memorable time on the water.</li>
 								</ul>
-								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
+								<a href="https://www.cabosailing.com/book-now/private-45-luxury-yacht/" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -120,7 +120,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 20 guests.</li>
 									<li>Spoil yourself with one of our top notch 46′ luxury yachts, with all the amenities needed for a relaxing, memorable time while enjoying Los Cabos snorkeling sites and awing sunsets.</li>
 								</ul>
-								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
+								<a href="https://www.cabosailing.com/book-now/private-46-yacht/" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -150,7 +150,7 @@ include 'header-landing-page.php'; ?>
 									<li>Cap. 14 guests.</li>
 									<li>Explore the sparkling turquoise waters of the Sea of Cortez on this sightseeing snorkel adventure or romantic Sunset Cruise of Los Cabos’ Land’s End Arch!</li>
 								</ul>
-								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
+								<a href="https://www.cabosailing.com/book-now/shared-snorkeling-or-sunset-sailing/" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -182,7 +182,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 12 guests.</li>
 									<li>Sail Cabo San Lucas on a beautiful private 38 feet sailing boat and snorkel in tropical waters alongside colorful sea life.</li>
 								</ul>
-								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
+								<a href="https://www.cabosailing.com/book-now/private-38-sailing/" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -214,7 +214,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise. / Cap. 14 guests.</li>
 									<li>Out two 42′ luxury sailing boats await for a fun day on the water. Great snorkeling at Cabo San Lucas bay and a relaxed sailing admiring a colorful sunset.</li>
 								</ul>
-								<a href="#contactForm" class="btn btn-white js-has-smooth relative overflow-hidden">
+								<a href="https://www.cabosailing.com/book-now/private-42-sailing/" class="btn btn-white js-has-smooth relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -347,67 +347,69 @@ include 'header-landing-page.php'; ?>
 </section>
 <!-- /section {About Us} -->
 
-<section id="benefits" class="container relative py-10 sm:py-12 md:py-16 lg:py-24 2xl:py-28">
-	<div class="text-center pb-8 lg:pb-10 2xl:pb-12">
-		<strong class="category ss-blue"><i class="icon-long-arrow-left"></i>Our Benefits<i class="icon-long-arrow-right"></i></strong>
-		<h2>One Of A Kind</h2>
+<section id="benefits" class="bg-ss-blue/5 pb-10 sm:pb-12 md:pb-16 lg:pb-24">
+	<div class="container relative">
+		<div class="text-center max-md:pb-4">
+			<strong class="category ss-blue"><i class="icon-long-arrow-left"></i>Our Benefits<i class="icon-long-arrow-right"></i></strong>
+			<h2>One Of A Kind</h2>
+		</div>
+		<div class="flex justify-center flex-wrap -mx-5 gap-y-5 lg:gap-y-7 2xl:gap-y-10">
+			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+					<h3>Luxurious Boats</h3>
+					<h4>Sail Away in Luxury</h4>
+					<p>Our boats are not just meticulously maintained; they’re decked out with the latest amenities to make your journey incredibly comfortable and pleasurable, the perfect setting for an unforgettable adventure.</p>
+				</div>
+			</div> <!-- /Card -->
+			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+					<h3>Exclusive Access</h3>
+					<h4>Discover Cabo's Hidden Wonders</h4>
+					<p>With our intimate knowledge of the area, we’ll whisk you away to the most awe-inspiring, beautiful beaches and breathtaking vistas that most tourists never get to see.</p>
+				</div>
+			</div> <!-- /Card -->
+			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+					<h3>Expert Guides</h3>
+					<h4>Passionate Experts, Unforgettable Experiences</h4>
+					<p>Our knowledgeable guides are passionate about sharing their deep knowledge of the local marine life, history, and geography. Get ready to be captivated by fascinating insights as you discover the wonders of the Cabo coastline.</p>
+				</div>
+			</div> <!-- /Card -->
+			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+					<h3>Premium Bar</h3>
+					<h4>Sail Away with Delightful Drinks</h4>
+					<p>Elevate your sailing journey with the perfect blend of breathtaking scenery and premium beverages. Our top-notch bar service will make your trip truly unforgettable, leaving you feeling refreshed, rejuvenated, and overjoyed.</p>
+				</div>
+			</div> <!-- /Card -->
+			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+					<h3>Social Connection</h3>
+					<h4>Sail Away with Your Loved Ones Into Unforgettable Moments</h4>
+					<p>Gather your friends and family for an exhilarating sailing adventure tailored just for you. Create cherished memories with customized itineraries that cater to all your desires, making every moment on the water special and unforgettable.</p>
+				</div>
+			</div> <!-- /Card -->
+			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-800 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
+					<h3>Safety First</h3>
+					<h4>Sail with Confidence, Ease, and Peace of Mind</h4>
+					<p>When you set sail with us, your safety and well-being is our top priority. Our skilled and knowledgeable crew are well trained in safety protocols and emergency procedures, so you can enjoy a thrilling yet secure sailing adventure.</p>
+				</div>
+			</div> <!-- /Card -->
+			<div class="absolute top-1/2 left-[27%] max-lg:top-[34.7%] max-lg:left-[40.4%] lg:w-[12.8%] animation max-md:hidden">
+				<picture class="[&_img]:w-full [&_img]:rounded-full">
+					<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" type="image/jpg">
+					<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" alt="Cargo Steering Image" width="158" height="158" loading="lazy">
+				</picture>
+			</div>
+			<div class="absolute top-1/2 left-[60.2%] max-lg:top-[62.4%] max-lg:left-[40.4%] lg:w-[12.8%] animation max-md:hidden">
+				<picture class="[&_img]:w-full [&_img]:rounded-full">
+					<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" type="image/jpg">
+					<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" alt="Cargo Steering Image" width="158" height="158" loading="lazy">
+				</picture>
+			</div>
+		</div> <!-- /Card Wrapper -->
 	</div>
-	<div class="flex justify-center flex-wrap -mx-5 gap-y-5 lg:gap-y-7 2xl:gap-y-10">
-		<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-			<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-900 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
-				<h3>Luxurious Boats</h3>
-				<h4>Sail Away in Luxury</h4>
-				<p>Our boats are not just meticulously maintained; they’re decked out with the latest amenities to make your journey incredibly comfortable and pleasurable, the perfect setting for an unforgettable adventure.</p>
-			</div>
-		</div> <!-- /Card -->
-		<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-			<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-900 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
-				<h3>Exclusive Access</h3>
-				<h4>Discover Cabo's Hidden Wonders</h4>
-				<p>With our intimate knowledge of the area, we’ll whisk you away to the most awe-inspiring, beautiful beaches and breathtaking vistas that most tourists never get to see.</p>
-			</div>
-		</div> <!-- /Card -->
-		<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-			<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-900 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
-				<h3>Expert Guides</h3>
-				<h4>Passionate Experts, Unforgettable Experiences</h4>
-				<p>Our knowledgeable guides are passionate about sharing their deep knowledge of the local marine life, history, and geography. Get ready to be captivated by fascinating insights as you discover the wonders of the Cabo coastline.</p>
-			</div>
-		</div> <!-- /Card -->
-		<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-			<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-900 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
-				<h3>Premium Bar</h3>
-				<h4>Sail Away with Delightful Drinks</h4>
-				<p>Elevate your sailing journey with the perfect blend of breathtaking scenery and premium beverages. Our top-notch bar service will make your trip truly unforgettable, leaving you feeling refreshed, rejuvenated, and overjoyed.</p>
-			</div>
-		</div> <!-- /Card -->
-		<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-			<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-900 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
-				<h3>Social Connection</h3>
-				<h4>Sail Away with Your Loved Ones Into Unforgettable Moments</h4>
-				<p>Gather your friends and family for an exhilarating sailing adventure tailored just for you. Create cherished memories with customized itineraries that cater to all your desires, making every moment on the water special and unforgettable.</p>
-			</div>
-		</div> <!-- /Card -->
-		<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-			<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-grey-900 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 pb-4 md:pb-7 lg:pb-10 px-6 [&_h3]:h4 [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:h6">
-				<h3>Safety First</h3>
-				<h4>Sail with Confidence, Ease, and Peace of Mind</h4>
-				<p>When you set sail with us, your safety and well-being is our top priority. Our skilled and knowledgeable crew are well trained in safety protocols and emergency procedures, so you can enjoy a thrilling yet secure sailing adventure.</p>
-			</div>
-		</div> <!-- /Card -->
-		<div class="absolute top-1/2 left-[27%] max-lg:top-[34.7%] max-lg:left-[40.4%] lg:w-[12.8%] animation max-md:hidden">
-			<picture class="[&_img]:w-full [&_img]:rounded-full">
-				<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" type="image/jpg">
-				<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" alt="Cargo Steering Image" width="158" height="158" loading="lazy">
-			</picture>
-		</div>
-		<div class="absolute top-1/2 left-[60.2%] max-lg:top-[62.4%] max-lg:left-[40.4%] lg:w-[12.8%] animation max-md:hidden">
-			<picture class="[&_img]:w-full [&_img]:rounded-full">
-				<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" type="image/jpg">
-				<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cargo-steering.jpg" alt="Cargo Steering Image" width="158" height="158" loading="lazy">
-			</picture>
-		</div>
-	</div> <!-- /Card Wrapper -->
 </section>
 <!-- /section {Our Benefits} -->
 
@@ -661,7 +663,7 @@ include 'header-landing-page.php'; ?>
 		<span class="block font-medium lg:text-lg mb-4">Use <span class="text-ss-red uppercase italic">Summer24</span> code to redeem at checkout.</span>
 		<ul class="flex flex-wrap justify-center gap-4">
 			<li>
-				<a href="https://www.cabosailing.com/luxury-sailboats" class="btn btn-secondary relative overflow-hidden">
+				<a href="https://www.cabosailing.com/luxury-sailboats/" class="btn btn-secondary relative overflow-hidden">
 					<span class="absolute inset-0 bg-white"></span>
 					<span class="absolute inset-0 flex justify-center items-center">
 						Book a sailboat
@@ -671,7 +673,7 @@ include 'header-landing-page.php'; ?>
 			</li>
 
 			<li>
-				<a href="https://www.cabosailing.com/luxury-yachts" class="btn btn-secondary relative overflow-hidden">
+				<a href="https://www.cabosailing.com/luxury-yachts/" class="btn btn-secondary relative overflow-hidden">
 					<span class="absolute inset-0 bg-white"></span>
 					<span class="absolute inset-0 flex justify-center items-center">
 						Book a Yacht

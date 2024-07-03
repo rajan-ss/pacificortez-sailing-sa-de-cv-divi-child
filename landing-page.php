@@ -18,7 +18,7 @@ include 'header-landing-page.php'; ?>
 		<div class="ss-custom-tab luxury-tab space-y-2 lg:space-y-4 flex flex-col justify-between overflow-hidden">
 			<div class="mobile-dropdown mb-4 lg:mb-7 xl:mb-9 flex flex-col">
 				<button class="dropBtn relative inline-block text-left w-full p-4 leading-normal border border-gray-300 text-[15px] lg:text-[16px] capitalize lg:hidden">Select Option</button>
-				<ul class="tabNav max-w-[1032px] lg:mx-auto relative list-none pb-[6px] lg:before:border-b-[6px] before:ss-grey-200 before:absolute before:bottom-0 before:left-[-9999px] before:right-[-9999px] pl-0 lg:flex max-lg:border hidden [&_a]:text-center lg:[&_a]:text-lg [&_a]:font-semibold [&_a]:text-ss-blue lg:[&_a]:inline-flex justify-center lg:before:[&_a]:absolute lg:before:[&_a]:left-0 lg:before:[&_a]:right-0 lg:before:[&_a]:bg-ss-blue lg:before:[&_a]:h-[7px] lg:before:[&_a]:bottom-[-25px] lg:after:[&_a]:absolute lg:after:[&_a]:bottom-[-40px] lg:after:[&_a]:left-1/2 lg:after:[&_a]:-translate-y-1/2 lg:after:[&_a]:bg-[url('../../assets/images/traingle.svg')] lg:after:[&_a]:size-[11px] lg:after:[&_a]:opacity-0 lg:before:[&_a]:opacity-0 lg:after:[&_a]:transition-all before:[&_a]:transition-all">
+				<ul class="tabNav max-w-[1032px] lg:mx-auto relative list-none pb-[6px] lg:before:border-b-[6px] before:ss-grey-200 before:absolute before:bottom-0 before:left-[-9999px] before:right-[-9999px] pl-0 lg:flex max-lg:border hidden [&_a]:text-center lg:[&_a]:text-lg [&_a]:font-semibold [&_a]:text-ss-blue lg:[&_a]:inline-flex justify-center lg:before:[&_a]:absolute lg:before:[&_a]:left-0 lg:before:[&_a]:right-0 lg:before:[&_a]:bg-ss-blue lg:before:[&_a]:h-[7px] lg:before:[&_a]:bottom-[-25px] lg:after:[&_a]:absolute lg:after:[&_a]:bottom-[-40px] lg:after:[&_a]:left-1/2 lg:after:[&_a]:-translate-y-1/2 lg:after:[&_a]:bg-[url('../images/traingle.svg')] lg:after:[&_a]:size-[11px] lg:after:[&_a]:opacity-0 lg:before:[&_a]:opacity-0 lg:after:[&_a]:transition-all before:[&_a]:transition-all">
 					<li class="max-md:p-2 max-lg:p-4 lg:mb-[18px] relative before:absolute before:right-0 before:top-0 before:bottom-0 before:w-[1px] before:h-full before:bg-gray-200">
 						<a href="#tab-1" class="nav-item hover:text-primary lg:px-4 relative w-full text-center transition-all duration-300 active"> Private 42' yacht </a>
 					</li>
@@ -202,7 +202,7 @@ include 'header-landing-page.php'; ?>
 					<div class="flex flex-col-reverse lg:flex-row flex-wrap items-center">
 						<div class="lg:w-1/2 pr-5 w-full">
 							<div class="max-w-[543px] lg:text-lg [&_h3]:text-ss-blue [&_ul_li]:mb-3 [&_ul]:mb-10">
-								<h3>Private 38′ Sailing Boat</h3>
+								<h3>Private 42′ Sailing Boat</h3>
 								<ul class="marker:text-primary list-disc list-outside pl-5">
 									<li>1-4 pax: <span class="line-through text-primary"> $990 </span>
 										<span class="text-ss-grey font-bold"> $841.5 USD</span>
@@ -593,13 +593,12 @@ include 'header-landing-page.php'; ?>
 							</div>
 						</div>
 						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
-							<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.
-							The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.
-							</p>
+							<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.</p>
+							<p>The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.</p>
 							<a href="#content-3" class="capitalize" data-fancybox>Read more</a>
 							<div id="content-3" class="hidden">
-								<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.
-								The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.</p>
+								<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.</p>
+								<p>The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.</p>
 							</div>
 						</div>
 					</div>
@@ -620,11 +619,11 @@ include 'header-landing-page.php'; ?>
 							</div>
 						</div>
 						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
-							<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience.  The crew was phenomenal.  The experience they provided was once in a lifetime.  3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.
+							<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience. The crew was phenomenal. The experience they provided was once in a lifetime. 3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.
 							</p>
 							<a href="#content-4" class="capitalize" data-fancybox>Read more</a>
 							<div id="content-4" class="hidden">
-								<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience.  The crew was phenomenal.  The experience they provided was once in a lifetime.  3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.</p>
+								<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience. The crew was phenomenal. The experience they provided was once in a lifetime. 3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.</p>
 							</div>
 						</div>
 					</div>
@@ -660,7 +659,7 @@ include 'header-landing-page.php'; ?>
 		<span class="block font-medium lg:text-lg mb-4">Use <span class="text-ss-red uppercase italic">Summer24</span> code to redeem at checkout.</span>
 		<ul class="flex flex-wrap justify-center gap-4">
 			<li>
-				<a href="https://www.cabosailing.com/luxury-sailboats/" class="btn btn-secondary relative overflow-hidden">
+				<a href="https://www.cabosailing.com/luxury-sailboats/" class="btn btn-secondary relative overflow-hidden enabled">
 					<span class="absolute inset-0 bg-white"></span>
 					<span class="absolute inset-0 flex justify-center items-center">
 						Book a sailboat
@@ -670,7 +669,7 @@ include 'header-landing-page.php'; ?>
 			</li>
 
 			<li>
-				<a href="https://www.cabosailing.com/luxury-yachts/" class="btn btn-secondary relative overflow-hidden">
+				<a href="https://www.cabosailing.com/luxury-yachts/" class="btn btn-secondary relative overflow-hidden enabled">
 					<span class="absolute inset-0 bg-white"></span>
 					<span class="absolute inset-0 flex justify-center items-center">
 						Book a Yacht

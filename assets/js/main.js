@@ -105,33 +105,65 @@
 			},
 		})
 
-		//Anchors scroll
-		function scrollToTarget(targetSectionId) {
-			var targetSection = $("#" + targetSectionId);
+		// Custom tab and dropdown on mobile
+		const customTabWrapper = document.querySelector('.ss-custom-tab')
+		const dropbtn = document.querySelector('.dropBtn')
+		const dropdownContent = document.querySelector('.tabNav')
 
-			if (targetSection.length > 0) {
-				var offset = targetSection.offset().top - 10;
+		$('a.enabled').on('click',function(){
+			window.open($(this).attr('href'))
+		})
 
-				$('html, body').animate({
-					scrollTop: offset
-				}, 800);
+		if (customTabWrapper) {
+			// Function to update drop button text
+			function updateDropButtonText(text) {
+				dropbtn.textContent = text
+			}
 
-				window.location.hash = targetSectionId;
+			// Function to handle tab click
+			function handleTabClick(e) {
+				// Check if the clicked element is a navigation item
+				if (e.target.classList.contains('nav-item')) {
+					e.preventDefault() // Prevent default link behavior
+					const itemTarget = e.target.getAttribute('href').replace('#', '')
+					const tabPane = document.getElementById(itemTarget) // Get the target tab pane
+
+					if (tabPane) {
+						// Remove 'active' class from all navigation items and hide all tab panes
+						document.querySelectorAll('.nav-item').forEach((navItem) => navItem.classList.remove('active'))
+						document.querySelectorAll('.tabPane').forEach((tabPane) => tabPane.classList.add('hidden'))
+
+						// Add 'active' class to the clicked navigation item and show the corresponding tab pane
+						e.target.classList.add('active')
+						tabPane.classList.remove('hidden')
+
+						// Update drop button text
+						updateDropButtonText(e.target.textContent)
+
+						// Toggle dropdown visibility (only if dropdown is visible on mobile)
+						if (!dropdownContent.classList.contains('hidden')) {
+							dropdownContent.classList.add('hidden')
+							dropbtn.classList.remove('active')
+						}
+					}
+				}
+			}
+
+			// Add event listener to handle tab navigation
+			customTabWrapper.addEventListener('click', handleTabClick)
+
+			// Add event listener to toggle dropdown visibility
+			dropbtn.addEventListener('click', () => {
+				dropdownContent.classList.toggle('hidden')
+				dropbtn.classList.toggle('active')
+			})
+
+			// Update drop button text initially
+			const initialActiveNavItem = document.querySelector('.ss-custom-tab .nav-item.active')
+			if (initialActiveNavItem) {
+				updateDropButtonText(initialActiveNavItem.textContent)
 			}
 		}
-
-		var initialHash = window.location.hash;
-
-		if (initialHash) {
-			scrollToTarget(initialHash.substr(1));
-		}
-
-		$('a[href^="#"]').on('click', function (e) {
-			e.preventDefault();
-			var targetSectionId = $(this).attr('href').substr(1);
-			scrollToTarget(targetSectionId);
-		});
-		/* End of the code block */
 
 		function openFancybox() {
 			setTimeout(function () {
@@ -141,59 +173,3 @@
 		openFancybox();
 	})
 }(jQuery));
-
-// Custom tab and dropdown on mobile
-const customTabWrapper = document.querySelector('.ss-custom-tab')
-const dropbtn = document.querySelector('.dropBtn')
-const dropdownContent = document.querySelector('.tabNav')
-
-if (customTabWrapper) {
-	// Function to update drop button text
-	function updateDropButtonText(text) {
-		dropbtn.textContent = text
-	}
-
-	// Function to handle tab click
-	function handleTabClick(e) {
-		// Check if the clicked element is a navigation item
-		if (e.target.classList.contains('nav-item')) {
-			e.preventDefault() // Prevent default link behavior
-			const itemTarget = e.target.getAttribute('href').replace('#', '')
-			const tabPane = document.getElementById(itemTarget) // Get the target tab pane
-
-			if (tabPane) {
-				// Remove 'active' class from all navigation items and hide all tab panes
-				document.querySelectorAll('.nav-item').forEach((navItem) => navItem.classList.remove('active'))
-				document.querySelectorAll('.tabPane').forEach((tabPane) => tabPane.classList.add('hidden'))
-
-				// Add 'active' class to the clicked navigation item and show the corresponding tab pane
-				e.target.classList.add('active')
-				tabPane.classList.remove('hidden')
-
-				// Update drop button text
-				updateDropButtonText(e.target.textContent)
-
-				// Toggle dropdown visibility (only if dropdown is visible on mobile)
-				if (!dropdownContent.classList.contains('hidden')) {
-					dropdownContent.classList.add('hidden')
-					dropbtn.classList.remove('active')
-				}
-			}
-		}
-	}
-
-	// Add event listener to handle tab navigation
-	customTabWrapper.addEventListener('click', handleTabClick)
-
-	// Add event listener to toggle dropdown visibility
-	dropbtn.addEventListener('click', () => {
-		dropdownContent.classList.toggle('hidden')
-		dropbtn.classList.toggle('active')
-	})
-
-	// Update drop button text initially
-	const initialActiveNavItem = document.querySelector('.ss-custom-tab .nav-item.active')
-	if (initialActiveNavItem) {
-		updateDropButtonText(initialActiveNavItem.textContent)
-	}
-}

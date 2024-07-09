@@ -60,10 +60,14 @@
 		const swiper = new Swiper('.banner-slider', {
 			// Optional parameters
 			loop: true,
+			autoplay: {
+				delay: 2000,
+				disableOnInteraction: false,
+			},
 
-			// If we need pagination
 			pagination: {
-				el: '.swiper-pagination',
+				el: ".swiper-pagination",
+				clickable: true,
 			},
 		});
 

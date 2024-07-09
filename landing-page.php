@@ -283,9 +283,9 @@ include 'header-landing-page.php'; ?>
 							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
 						<div class="[&_h4]:text-ss-blue [&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
-							<h4>Whale Watching</h4>
-							<h6>Discover the Majestic Whales of Cabo</h6>
-							<p>Be awestruck as you encounter the gentle giants of the deep. From December through April, watch in wonder as the humpback whales breach the surface, showcasing their sheer size and power.</p>
+							<h4>Customise Your Experience</h4>
+							<!-- <h6>Discover the Majestic Whales of Cabo</h6> -->
+							<p>ask us regarding celebration cakes, extra time, variety of menus etc</p>
 						</div>
 					</div>
 				</div>
@@ -418,6 +418,31 @@ include 'header-landing-page.php'; ?>
 		<div class="swiper-wrapper [&_h2]:text-white lg:[&_h2]:text-[52px] lg:[&_h2]:mb-8">
 			<div class="swiper-slide h-auto">
 				<div class="relative h-full flex items-center min-h-[340px] py-10">
+					<div class="bg-no-repeat bg-center bg-cover absolute inset-0 z-[-1] before:absolute before:bg-gradient-to-r before:from-ss-blue/85 before:inset-0" style="background-image: url('<?php echo get_theme_file_uri(); ?>/assets/images/image-slider-featured-image03.jpg');">
+					</div>
+					<div class="absolute top-[-6%] right-[-2%] xl:top-[-15%] xl:right-[-5%] w-[150px] lg:w-[200px] xl:w-[353px]">
+						<picture>
+							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/15-percent-off.svg" type="image/png">
+							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/20-percent-off.svg" width="353" height="218" loading="lazy" alt="15 percent Off">
+						</picture>
+					</div>
+					<div class="container">
+						<div class="max-w-[80%] lg:max-w-[655px]">
+							<h2>15% off online booking</h2>
+							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
+								<span class="absolute inset-0 bg-white"></span>
+								<span class="absolute inset-0 flex justify-center items-center">
+									Know More
+								</span>
+								Know More
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-slide h-auto">
+				<div class="relative h-full flex items-center min-h-[340px] py-10">
 					<div class="bg-no-repeat bg-center bg-cover absolute inset-0 z-[-1] before:absolute before:bg-gradient-to-r before:from-ss-blue/85 before:inset-0" style="background-image: url('<?php echo get_theme_file_uri(); ?>/assets/images/image-slider-featured-image01.jpg');">
 					</div>
 					<div class="absolute top-[-6%] right-[-2%] xl:top-[-15%] xl:right-[-5%] w-[150px] lg:w-[200px] xl:w-[353px]">
@@ -428,7 +453,7 @@ include 'header-landing-page.php'; ?>
 					</div>
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
-							<h2>Save 20% when booking a second Cabo boat tour</h2>
+							<h2>20% off *two cruise booking</h2>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
@@ -445,40 +470,15 @@ include 'header-landing-page.php'; ?>
 				<div class="relative h-full flex items-center min-h-[340px] py-10">
 					<div class="bg-no-repeat bg-center bg-cover absolute inset-0 z-[-1] before:absolute before:bg-gradient-to-r before:from-ss-blue/85 before:inset-0" style="background-image: url('<?php echo get_theme_file_uri(); ?>/assets/images/image-slider-featured-image02.jpg');">
 					</div>
-					<div class="absolute top-[-6%] right-[-2%] xl:top-[-15%] xl:right-[-5%] w-[150px] lg:w-[200px] xl:w-[353px]">
+					<!-- <div class="absolute top-[-6%] right-[-2%] xl:top-[-15%] xl:right-[-5%] w-[150px] lg:w-[200px] xl:w-[353px]">
 						<picture>
 							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/free-bottle.svg" type="image/png">
 							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/20-percent-off.svg" width="353" height="218" loading="lazy" alt="Free bottle">
 						</picture>
-					</div>
+					</div> -->
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
-							<h2>*FREE Prosecco / Vodka / Whisky / Tequila</h2>
-							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
-								<span class="absolute inset-0 bg-white"></span>
-								<span class="absolute inset-0 flex justify-center items-center">
-									Know More
-								</span>
-								Know More
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="swiper-slide h-auto">
-				<div class="relative h-full flex items-center min-h-[340px] py-10">
-					<div class="bg-no-repeat bg-center bg-cover absolute inset-0 z-[-1] before:absolute before:bg-gradient-to-r before:from-ss-blue/85 before:inset-0" style="background-image: url('<?php echo get_theme_file_uri(); ?>/assets/images/image-slider-featured-image03.jpg');">
-					</div>
-					<div class="absolute top-[-6%] right-[-2%] xl:top-[-15%] xl:right-[-5%] w-[150px] lg:w-[200px] xl:w-[353px]">
-						<picture>
-							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/15-percent-off.svg" type="image/png">
-							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/20-percent-off.svg" width="353" height="218" loading="lazy" alt="15 percent Off">
-						</picture>
-					</div>
-					<div class="container">
-						<div class="max-w-[80%] lg:max-w-[655px]">
-							<h2>Save 15% on your desired cruise.</h2>
+							<h2>*Discount applies for a total of two cruises</h2>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
@@ -650,13 +650,13 @@ include 'header-landing-page.php'; ?>
 	<div class="before:absolute before:inset-0 before:bg-[linear-gradient(180deg,rgba(227,239,239,0.94)_0%,rgba(227,239,239,0.94)_100%)] absolute z-[-1] bg-cover bg-center inset-0 bg-[url('../../assets/images/waves-bg.jpg')]">
 	</div>
 	<div class="[&_h2]:text-[28px] [&_h2]:text-ss-red [&_h2]:italic text-center">
-		<h2>Limited time offer: 25% off</h2>
+		<h2>Limited time offer: 15% off</h2>
 		<strong class="inline-flex mx-auto mb-4 font-lead lg:text-[26px] font-bold px-5 pb-[8px] border-b border-solid border-black">Book Today</strong>
 		<span class="block font-medium lg:text-[28px] mb-2">Enjoy before - <span class="text-ss-red">December 19</span></span>
 		<figure class="mb-4">
 			<img src="<?php echo get_theme_file_uri(); ?>/assets/images/offer-img01.png" alt="feature Images" width="765" height="242" loading="lazy">
 		</figure>
-		<span class="block font-medium lg:text-lg mb-4">Use <span class="text-ss-red uppercase italic">Summer24</span> code to redeem at checkout.</span>
+		<span class="block font-medium lg:text-lg mb-4">Use <span class="text-ss-red uppercase italic">SUNRISE</span> code to redeem at checkout.</span>
 		<ul class="flex flex-wrap justify-center gap-4">
 			<li>
 				<a href="https://www.cabosailing.com/luxury-sailboats/" class="btn btn-secondary relative overflow-hidden enabled">

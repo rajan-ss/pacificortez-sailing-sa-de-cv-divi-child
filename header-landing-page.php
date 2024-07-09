@@ -37,7 +37,7 @@
               </a>
             </li>
             <li>
-              <a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
+              <a href="https://www.cabosailing.com/book-now/" class="btn btn-primary js-has-smooth relative overflow-hidden">
                 <span class="absolute inset-0 bg-white"></span>
                 <span class="absolute inset-0 flex justify-center items-center">
                   Book Now

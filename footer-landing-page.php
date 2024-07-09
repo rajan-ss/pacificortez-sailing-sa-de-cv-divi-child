@@ -37,7 +37,7 @@
           <div class="bg-white/15 p-5 border-solid border-[0.5px] border-primary/50 max-w-[580px] max-lg:mx-auto [&_h3]:text-white [&_p]:pb-0">
             <strong class="category white md:text-[20px]">Cancellation Policy <i class="icon-long-arrow-right text-white"></i></strong>
             <p>We require a<span class="font-bold"> 24-hour notice of cancellation.</span></p>
-            <p>Beacuse we reserve time specially for you , please make any schedule changes the day before service to avoid incurring a <span class="text-primary font-extrabold">$75 late cancellation fee.</span></p>
+            <p>Beacuse we reserve time specially for you , please make any schedule changes the day before service to avoid incurring a <span class="text-primary font-extrabold">50% late cancellation fee.</span></p>
             <!-- <div class="flex items-center gap-2">
               <a href="#">Read More <i class="icon-arrow-right streched-link"></i></a>
             </div> -->

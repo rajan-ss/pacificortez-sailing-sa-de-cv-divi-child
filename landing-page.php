@@ -647,9 +647,9 @@ include 'header-landing-page.php'; ?>
 <!-- /section {Testimonials} -->
 
 <div class="initialPopup w-full max-w-[800px] relative" style="display: none;">
-	<div class="before:absolute before:inset-0 before:bg-[linear-gradient(180deg,rgba(227,239,239,0.94)_0%,rgba(227,239,239,0.94)_100%)] absolute z-[-1] bg-cover bg-center inset-0 bg-[url('../images/waves-bg.jpg')]">
+	<div class="before:absolute before:inset-0 before:bg-[linear-gradient(180deg,rgba(227,239,239,0.94)_0%,rgba(227,239,239,0.94)_100%)] absolute bg-cover bg-center inset-0 bg-[url('../images/waves-bg.jpg')]">
 	</div>
-	<div class="[&_h2]:text-[28px] [&_h2]:text-ss-red [&_h2]:italic text-center">
+	<div class="[&_h2]:text-[28px] [&_h2]:text-ss-red [&_h2]:italic text-center relative z-[1]">
 		<h2>Limited time offer: 15% off</h2>
 		<strong class="inline-flex mx-auto mb-4 font-lead lg:text-[26px] font-bold px-5 pb-[8px] border-b border-solid border-black">Book Today</strong>
 		<span class="block font-medium lg:text-[28px] mb-2">Enjoy before - <span class="text-ss-red">December 19</span></span>

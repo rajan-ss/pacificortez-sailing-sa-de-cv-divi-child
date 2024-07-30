@@ -37,11 +37,13 @@ function lp_scripts()
     $jquery = '/lib/jquery.min.js';
     $swiper_js = '/lib/swiper/swiper-bundle.min.js';
     $fancybox_js = '/lib/fancybox/jquery.fancybox.min.js';
+    // $rezdy_js = 'https://cabosailing.rezdy.com/pluginJs';
     $main_js = '/assets/js/main.js';
    
     wp_enqueue_script('lp-jquery', get_theme_file_uri() . $jquery, [], wp_get_theme()->get('Version'), true);
     wp_enqueue_script('lp-swiper', get_theme_file_uri() . $swiper_js, [], wp_get_theme()->get('Version'), true);
     wp_enqueue_script('lp-fancybox', get_theme_file_uri() . $fancybox_js, [], wp_get_theme()->get('Version'), true);
+    // wp_enqueue_script('lp-rezdy', get_theme_file_uri() . $rezdy_js, [], wp_get_theme()->get('Version'), true);
     wp_enqueue_script('lp-script', get_theme_file_uri() . $main_js, [], wp_get_theme()->get('Version'), true);
   }
 }

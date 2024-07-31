@@ -298,8 +298,8 @@ include 'header-landing-page.php'; ?>
 				<div class="swiper-slide h-auto">
 					<div class="h-full p-5 pb-8 bg-gray-100 rounded border-solid border border-primary card-shadow card">
 						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden [&_img]:object-cover [&_img]:object-center [&_img]:h-[276px]"> 
-							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpeg" type="image/jpg">
-							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpeg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
+							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" type="image/jpg">
+							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
 						<div class="[&_h4]:text-ss-blue [&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
 							<h4>Customize Your Experience</h4>

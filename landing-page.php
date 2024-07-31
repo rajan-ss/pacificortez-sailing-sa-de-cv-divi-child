@@ -271,7 +271,7 @@ include 'header-landing-page.php'; ?>
 			<div class="swiper-wrapper">
 				<div class="swiper-slide h-auto">
 					<div class="h-full p-5 pb-8 bg-gray-100 rounded border-solid border border-primary card-shadow card">
-						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden"> 
+						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden [&_img]:object-cover [&_img]:object-center [&_img]:h-[276px]"> 
 							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-01.jpg" type="image/jpg">
 							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-01.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
@@ -284,7 +284,7 @@ include 'header-landing-page.php'; ?>
 				</div>
 				<div class="swiper-slide h-auto">
 					<div class="h-full p-5 pb-8 bg-gray-100 rounded border-solid border border-primary card-shadow card">
-						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden"> 
+						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden [&_img]:object-cover [&_img]:object-center [&_img]:h-[276px]"> 
 							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-02.jpg" type="image/jpg">
 							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-02.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
@@ -297,14 +297,14 @@ include 'header-landing-page.php'; ?>
 				</div>
 				<div class="swiper-slide h-auto">
 					<div class="h-full p-5 pb-8 bg-gray-100 rounded border-solid border border-primary card-shadow card">
-						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden"> 
-							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" type="image/jpg">
-							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
+						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden [&_img]:object-cover [&_img]:object-center [&_img]:h-[276px]"> 
+							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpeg" type="image/jpg">
+							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpeg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
 						<div class="[&_h4]:text-ss-blue [&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
 							<h4>Customize Your Experience</h4>
 							<!-- <h6>Discover the Majestic Whales of Cabo</h6> -->
-							<p>ask us regarding celebration cakes, extra time, variety of menus etc</p>
+							<p>Want to make your Cabo Sailing Adventure extra special? We've got you covered! Customize your experience by adding more time to your cruise for a longer, more relaxing journey, pick from different menu options, or even include a celebration cake and fresh flowers. Whatever you need to make your trip unforgettable, we’re here to make it happen.</p>
 						</div>
 					</div>
 				</div>

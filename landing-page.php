@@ -500,7 +500,7 @@ include 'header-landing-page.php'; ?>
 					</div> -->
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
-							<h2>All Special offers on this page, except for the gift cards.</h2>
+							<h2>All Special offers on this <a class="underline hover:no-underline" href="https://www.cabosailing.com/special-offers/">page</a>, except for the gift cards.</h2>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">

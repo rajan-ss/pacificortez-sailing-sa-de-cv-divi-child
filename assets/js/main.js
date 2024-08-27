@@ -174,6 +174,6 @@
 				$('.initialPopup').fancybox().trigger('click');
 			}, 8000);
 		}
-		openFancybox();
+		// openFancybox();
 	})
 }(jQuery));

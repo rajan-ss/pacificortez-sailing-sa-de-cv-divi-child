@@ -65,7 +65,7 @@ include 'header-landing-page.php'; ?>
 								</a>
 
 								<div id="private42" class="hidden">
-									<iframe seamless="" width="300px" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/calendarWidget/168008?iframe=true"></iframe>
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/632335/42-luxury-yacht-1?iframe=true"></iframe>
 								</div>
 							</div>
 						</div>
@@ -92,7 +92,7 @@ include 'header-landing-page.php'; ?>
 									<li>3 hour cruise / Cap. 12 guests.</li>
 									<li>Experience a truly modern & luxurious yacht. Our 45′ yacht is a perfect combination of a comfortable and stylish yacht with all the amenities you need for a fun and memorable time on the water.</li>
 								</ul>
-								<a href="#private45" class="btn btn-white relative overflow-hidden">
+								<a href="#private45" class="btn btn-white relative overflow-hidden" data-fancybox>
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
@@ -100,7 +100,7 @@ include 'header-landing-page.php'; ?>
 									Book Now
 								</a>
 								<div id="private45" class="hidden">
-									<iframe seamless="" width="300px" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/calendarWidget/528988?iframe=true"></iframe>
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/528988/45-luxury-yacht?iframe=true"></iframe>
 								</div>
 							</div>
 						</div>
@@ -135,7 +135,7 @@ include 'header-landing-page.php'; ?>
 									Book Now
 								</a>
 								<div id="private46" class="hidden">
-									<iframe seamless="" width="300px" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/calendarWidget/165509?iframe=true"></iframe>
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/165509/46-luxury-yacht?iframe=true"></iframe>
 								</div>
 							</div>
 						</div>
@@ -174,7 +174,7 @@ include 'header-landing-page.php'; ?>
 						</div>
 						<div class="lg:w-1/2 w-full max-lg:mb-6">
 							<figure class="[&_img]:w-full [&_img]:h-full w-full">
-								<img src="<?php echo get_theme_file_uri(); ?>/assets/images/luxury-vessel-img04.webp" alt="Luxury vessel feature image" width="596" height="320" loading="lazy">
+								<img src="<?php echo get_theme_file_uri(); ?>/assets/images/luxury-vessel-img04.jpg" alt="Luxury vessel feature image" width="596" height="320" loading="lazy">
 							</figure>
 						</div>
 					</div>
@@ -203,13 +203,13 @@ include 'header-landing-page.php'; ?>
 									Book Now
 								</a>
 								<div id="private38" class="hidden">
-									<iframe seamless="" width="300px" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/calendarWidget/165682?iframe=true"></iframe>
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/165682/38-private-sailing?iframe=true"></iframe>
 								</div>
 							</div>
 						</div>
 						<div class="lg:w-1/2 w-full max-lg:mb-6">
 							<figure class="[&_img]:w-full [&_img]:h-full w-full">
-								<img src="<?php echo get_theme_file_uri(); ?>/assets/images/luxury-vessel-img05.webp" alt="Luxury vessel feature image" width="596" height="320" loading="lazy">
+								<img src="<?php echo get_theme_file_uri(); ?>/assets/images/luxury-vessel-img05.jpg" alt="Luxury vessel feature image" width="596" height="320" loading="lazy">
 							</figure>
 						</div>
 					</div>
@@ -238,13 +238,13 @@ include 'header-landing-page.php'; ?>
 									Book Now
 								</a>
 								<div id="private42sailing" class="hidden">
-									<iframe seamless="" width="300px" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/calendarWidget/165682?iframe=true"></iframe>
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/636281/42-private-sailing-boat?iframe=true"></iframe>
 								</div>
 							</div>
 						</div>
 						<div class="lg:w-1/2 w-full max-lg:mb-6">
 							<figure class="[&_img]:w-full [&_img]:h-full w-full">
-								<img src="<?php echo get_theme_file_uri(); ?>/assets/images/luxury-vessel-img06.webp" alt="Luxury vessel feature image" width="596" height="320" loading="lazy">
+								<img src="<?php echo get_theme_file_uri(); ?>/assets/images/luxury-vessel-img06.jpg" alt="Luxury vessel feature image" width="596" height="320" loading="lazy">
 							</figure>
 						</div>
 					</div>
@@ -444,13 +444,13 @@ include 'header-landing-page.php'; ?>
 					</div>
 					<div class="absolute top-[-6%] right-[-2%] xl:top-[-15%] xl:right-[-5%] w-[150px] lg:w-[200px] xl:w-[353px]">
 						<picture>
-							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/15-percent-off.svg" type="image/png">
-							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/20-percent-off.svg" width="353" height="218" loading="lazy" alt="15 percent Off">
+							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/25-off.svg" type="image/png">
+							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/25-off.svg" width="353" height="218" loading="lazy" alt="25 percent Off">
 						</picture>
 					</div>
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
-							<h2>15% off online booking</h2>
+							<h2>Summer discount 25% off Promo code: SUMMER24.</h2>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
@@ -469,13 +469,13 @@ include 'header-landing-page.php'; ?>
 					</div>
 					<div class="absolute top-[-6%] right-[-2%] xl:top-[-15%] xl:right-[-5%] w-[150px] lg:w-[200px] xl:w-[353px]">
 						<picture>
-							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/20-percent-off.svg" type="image/png">
-							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/20-percent-off.svg" width="353" height="218" loading="lazy" alt="20 Percent Off">
+							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/35-percent-off.svg" type="image/png">
+							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/35-percent-off.svg" width="353" height="218" loading="lazy" alt="35 Percent Off">
 						</picture>
 					</div>
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
-							<h2>20% off *two cruise booking</h2>
+							<h2>Two cruises bundle 35% off the total.</h2>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
@@ -500,7 +500,7 @@ include 'header-landing-page.php'; ?>
 					</div> -->
 					<div class="container">
 						<div class="max-w-[80%] lg:max-w-[655px]">
-							<h2>*Discount applies for a total of two cruises</h2>
+							<h2>All Special offers on this page, except for the gift cards.</h2>
 							<a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
 								<span class="absolute inset-0 bg-white"></span>
 								<span class="absolute inset-0 flex justify-center items-center">
@@ -524,128 +524,205 @@ include 'header-landing-page.php'; ?>
 			<strong class="category ss-blue"><i class="icon-long-arrow-left"></i>Testimonials<i class="icon-long-arrow-right"></i></strong>
 			<h2>What Our Client Says</h2>
 		</div>
-		<div class="relative flex flex-col-reverse lg:flex-row lg:gap-5 xl::gap-x-20 justify-between ">
+		<div class="relative">
 			<div class="swiper testimonial-slider">
 				<!-- Additional required wrapper -->
 				<div class="swiper-wrapper">
 					<!-- Slides -->
 					<div class="swiper-slide">
-						<div class="flex flex-col sm:flex-row sm:space-x-5">
-							<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
-								<span class="h4 mb-0 font-semibold uppercase">DS</span>
+						<div class="flex flex-col-reverse lg:flex-row lg:gap-5 xl::gap-x-20 items-start justify-between">
+							<div class="w-full lg:max-w-[450px] 2xl:max-w-[540px] shadow-[0_4px_30px_0px] shadow-ss-grey-900/10 space-y-5 p-[30px] bg-white rounded-xl border border-solid border-ss-blue/15">
+								<div class="flex flex-col sm:flex-row sm:space-x-5">
+									<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
+										<span class="h4 mb-0 font-semibold uppercase">CB</span>
+									</div>
+									<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
+										<p>Courtney Byrd</p>
+										<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
+									<p>Cabo Sailing Company is always my GO TO company for boating when I am visiting Cabo. I just recently had my second charter with them in June 2024 and they were awesome! My first charter with them was back in March 2021.
+									There are too many names to name and I have sadly forgotten some but I do remember Ali, Pedro and JJ.
+									Anyone who asks for a referral always gets their name company from me!
+									The captain and first mate do everything to make your charter special. Getting awesome pictures, helping you with water toys, making delicious heavy hor devours and most of all keeping you safe! They even have hotel pick up available.
+									I have done sunset charter twice and it’s the best! Can’t wait to go back next time and see my friends at Cabo Sailing yet again!</p>
+									<a href="#content-1" class="capitalize" data-fancybox>Read more</a>
+									<div id="content-1" class="hidden">
+										<p>Cabo Sailing Company is always my GO TO company for boating when I am visiting Cabo. I just recently had my second charter with them in June 2024 and they were awesome! My first charter with them was back in March 2021.
+										There are too many names to name and I have sadly forgotten some but I do remember Ali, Pedro and JJ.
+										Anyone who asks for a referral always gets their name company from me!
+										The captain and first mate do everything to make your charter special. Getting awesome pictures, helping you with water toys, making delicious heavy hor devours and most of all keeping you safe! They even have hotel pick up available.
+										I have done sunset charter twice and it’s the best! Can’t wait to go back next time and see my friends at Cabo Sailing yet again!</p>
+									</div>
+								</div>
 							</div>
-							<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
-								<p>Danit Shapiro</p>
-								<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-								</ul>
-							</div>
-						</div>
-						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
-							<p>Yesterday used their services and WOW.. Treated like royalty! The thoughtfulness of the staff, cleanliness of the boat, the food and drinks 🎉🎉 everything was amazing! Definitely recommend - consider us lifetime customers 🙏🏼🙏🏼</p>
-							<a href="#content-1" class="capitalize" data-fancybox>Read more</a>
-							<div id="content-1" class="hidden">
-								<p>Yesterday used their services and WOW.. Treated like royalty! The thoughtfulness of the staff, cleanliness of the boat, the food and drinks 🎉🎉 everything was amazing!
-									Definitely recommend - consider us lifetime customers 🙏🏼🙏🏼</p>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="flex flex-col sm:flex-row sm:space-x-5">
-							<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
-								<span class="h4 mb-0 font-semibold uppercase">KH</span>
-							</div>
-							<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
-								<p>Kendall Hurley </p>
-								<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-								</ul>
-							</div>
-						</div>
-						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
-							<p>We had an amazing time with Ali and Paul during our private snorkel and whale watching excursion. They were extremely friendly and helpful and the lunch provided was amazing! I can't recommend these guys enough! Thank you so much for being the highlight of our entire Cabo trip.</p>
-							<a href="#content-2" class="capitalize" data-fancybox>Read more</a>
-							<div id="content-2" class="hidden">
-								<p>We had an amazing time with Ali and Paul during our private snorkel and whale watching excursion. They were extremely friendly and helpful and the lunch provided was amazing! I can't recommend these guys enough! Thank you so much for being the highlight of our entire Cabo trip.</p>
+							<div class="w-full max-lg:mb-8 lg:w-auto lg:max-w-[601px] rounded-tl-[155px] overflow-hidden">
+								<figure class="[&_img]:w-full [&_img]:h-full">
+									<img src="<?php echo get_theme_file_uri(); ?>/assets/images/Courtney-Byrd.jpg" alt="Testimonal Featured Image" width="601" height="398" loading="lazy">
+								</figure>
 							</div>
 						</div>
 					</div>
+
 					<div class="swiper-slide">
-						<div class="flex flex-col sm:flex-row sm:space-x-5">
-							<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
-								<span class="h4 mb-0 font-semibold uppercase">SHS</span>
+						<div class="flex flex-col-reverse lg:flex-row lg:gap-5 xl::gap-x-20 items-start justify-between">
+							<div class="w-full lg:max-w-[450px] 2xl:max-w-[540px] shadow-[0_4px_30px_0px] shadow-ss-grey-900/10 space-y-5 p-[30px] bg-white rounded-xl border border-solid border-ss-blue/15">
+								<div class="flex flex-col sm:flex-row sm:space-x-5">
+									<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
+										<span class="h4 mb-0 font-semibold uppercase">MS</span>
+									</div>
+									<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
+										<p>Melissa Schneider</p>
+										<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
+									<p>Our group of 6 went on a private 3 hour sunset sailing cruise and it was amazing! We had seamless transportation between our resort and the marina. Our captain - Gary - and 1st mate - Joel were fabulous. Joel was attentive and knowledgeable without being overbearing. Light snacks and drinks were abundant, and we learned so much about the area. We saw sea lions, some amazing scenery, and even a breach of a humpback whale. I'd highly recommend!</p>
+									<a href="#content-2" class="capitalize" data-fancybox>Read more</a>
+									<div id="content-2" class="hidden">
+										<p>Our group of 6 went on a private 3 hour sunset sailing cruise and it was amazing! We had seamless transportation between our resort and the marina. Our captain - Gary - and 1st mate - Joel were fabulous. Joel was attentive and knowledgeable without being overbearing. Light snacks and drinks were abundant, and we learned so much about the area. We saw sea lions, some amazing scenery, and even a breach of a humpback whale. I'd highly recommend!</p>
+									</div>
+								</div>
 							</div>
-							<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
-								<p>Shannon Hodges Spears</p>
-								<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-								</ul>
-							</div>
-						</div>
-						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
-							<p>Cabo Sailing was fabulous! We did a private charter and could not have had more fun. Our crew (Gary and Jesus) were absolutely the best! Highly recommend this company.</p>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="flex flex-col sm:flex-row sm:space-x-5">
-							<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
-								<span class="h4 mb-0 font-semibold uppercase">CJ</span>
-							</div>
-							<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
-								<p>CJ Johnson</p>
-								<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-								</ul>
-							</div>
-						</div>
-						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
-							<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.</p>
-							<p>The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.</p>
-							<a href="#content-3" class="capitalize" data-fancybox>Read more</a>
-							<div id="content-3" class="hidden">
-								<p>My sailing trip with Cabo Sailing Ocean Adventures was a breathtaking experience, accentuated by the rare and magnificent sight of whales. As a content creator always on the lookout for awe-inspiring moments, this encounter was a thrilling highlight. The ocean's vast beauty, combined with these majestic creatures, provided a backdrop of natural wonder that was both beautiful and inspiring.</p>
-								<p>The crew on board deserves special mention for their exceptional service. They were not only friendly and funny, making the whole experience enjoyable, but also attentive, ensuring our comfort and safety throughout the journey. Their warm hospitality and continuous care enhanced the serene ambiance, making it the perfect setting for creative inspiration and relaxation. This adventure was more than just a sailing trip; it was a memorable journey that enriched my soul and sparked my creativity.</p>
+							<div class="w-full max-lg:mb-8 lg:w-auto lg:max-w-[601px] rounded-tl-[155px] overflow-hidden">
+								<figure class="[&_img]:w-full [&_img]:h-full">
+									<img src="<?php echo get_theme_file_uri(); ?>/assets/images/Melissa-Schneider.jpg" alt="Testimonal Featured Image" width="601" height="398" loading="lazy">
+								</figure>
 							</div>
 						</div>
 					</div>
+
 					<div class="swiper-slide">
-						<div class="flex flex-col sm:flex-row sm:space-x-5">
-							<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
-								<span class="h4 mb-0 font-semibold uppercase">TF</span>
+						<div class="flex flex-col-reverse lg:flex-row lg:gap-5 xl::gap-x-20 items-start justify-between">
+							<div class="w-full lg:max-w-[450px] 2xl:max-w-[540px] shadow-[0_4px_30px_0px] shadow-ss-grey-900/10 space-y-5 p-[30px] bg-white rounded-xl border border-solid border-ss-blue/15">
+								<div class="flex flex-col sm:flex-row sm:space-x-5">
+									<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
+										<span class="h4 mb-0 font-semibold uppercase">JW</span>
+									</div>
+									<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
+										<p>John Wright</p>
+										<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
+									<p>Cesar, Oswaldo, and the Captain were super professional, friendly, and helpful.  The views can't be beat.  The food was great to enjoy after getting out of the water and the open bar was great to offset the salt water! <br>
+
+									Two quick points:  they don't actually sail, though it is a sailboat.  It's runs on motor only.  At least it did for us.  Also, the snorkeling is with a mandatory life preserver vest.  It's understandable, because it's a dangerous environment.  But, if you're an experienced swimmer/diver, go for a dip and then enjoy the chips & quac & booze! <br>
+
+									Fun time.  Highly recommend.</p>
+									<a href="#content-3" class="capitalize" data-fancybox>Read more</a>
+									<div id="content-3" class="hidden">
+										<p>Cesar, Oswaldo, and the Captain were super professional, friendly, and helpful.  The views can't be beat.  The food was great to enjoy after getting out of the water and the open bar was great to offset the salt water! <br>
+
+										Two quick points:  they don't actually sail, though it is a sailboat.  It's runs on motor only.  At least it did for us.  Also, the snorkeling is with a mandatory life preserver vest.  It's understandable, because it's a dangerous environment.  But, if you're an experienced swimmer/diver, go for a dip and then enjoy the chips & quac & booze! <br>
+
+										Fun time.  Highly recommend.</p>
+									</div>
+								</div>
 							</div>
-							<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
-								<p>Ted Fritz</p>
-								<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-									<li><i class="icon-star"></i></li>
-								</ul>
+							<div class="w-full max-lg:mb-8 lg:w-auto lg:max-w-[601px] rounded-tl-[155px] overflow-hidden">
+								<figure class="[&_img]:w-full [&_img]:h-full">
+									<img src="<?php echo get_theme_file_uri(); ?>/assets/images/john-wright.jpg" alt="Testimonal Featured Image" width="601" height="398" loading="lazy">
+								</figure>
 							</div>
 						</div>
-						<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
-							<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience. The crew was phenomenal. The experience they provided was once in a lifetime. 3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.
-							</p>
-							<a href="#content-4" class="capitalize" data-fancybox>Read more</a>
-							<div id="content-4" class="hidden">
-								<p>Only issue with the excursion was it was middle of our vacation. This needs to be your final excursion as there is no topping the experience. The crew was phenomenal. The experience they provided was once in a lifetime. 3 days left in cabo and everything else will be compared to this amazing experience and will pale in comparison. 18 out of 7 snorkels. If there needed a reason to return to cabo it would be to see this crew again.</p>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="flex flex-col-reverse lg:flex-row lg:gap-5 xl::gap-x-20 items-start justify-between">
+							<div class="w-full lg:max-w-[450px] 2xl:max-w-[540px] shadow-[0_4px_30px_0px] shadow-ss-grey-900/10 space-y-5 p-[30px] bg-white rounded-xl border border-solid border-ss-blue/15">
+								<div class="flex flex-col sm:flex-row sm:space-x-5">
+									<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
+										<span class="h4 mb-0 font-semibold uppercase">BN</span>
+									</div>
+									<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
+										<p>Berenice Noriega</p>
+										<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
+									<p>Everything was amazing! Boyfriend and I booked the 38’ shared sunset sailing cruise. We shared it with another couple and a family(it was 9 of us total+crew) and let me tell you it felt so private. <br>
+
+									They offer you snacks and unlimited drinks during the ride. They give you more than enough time to take your picture at the arch and take you to the nearby beaches. <br>
+
+									The sailing boat was clean and has room for you to seat comfortably. <br>
+
+									I really recommend you booking your experience here, it really was the highlight of our trip</p>
+									<a href="#content-4" class="capitalize" data-fancybox>Read more</a>
+									<div id="content-4" class="hidden">
+										<p>Everything was amazing! Boyfriend and I booked the 38’ shared sunset sailing cruise. We shared it with another couple and a family(it was 9 of us total+crew) and let me tell you it felt so private. <br>
+
+										They offer you snacks and unlimited drinks during the ride. They give you more than enough time to take your picture at the arch and take you to the nearby beaches. <br>
+
+										The sailing boat was clean and has room for you to seat comfortably. <br>
+
+										I really recommend you booking your experience here, it really was the highlight of our trip</p>
+									</div>
+								</div>
+							</div>
+							<div class="w-full max-lg:mb-8 lg:w-auto lg:max-w-[601px] rounded-tl-[155px] overflow-hidden">
+								<figure class="[&_img]:w-full [&_img]:h-full">
+									<img src="<?php echo get_theme_file_uri(); ?>/assets/images/Berenice-Noriega.jpg" alt="Testimonal Featured Image" width="601" height="398" loading="lazy">
+								</figure>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="flex flex-col-reverse lg:flex-row lg:gap-5 xl::gap-x-20 items-start justify-between">
+							<div class="w-full lg:max-w-[450px] 2xl:max-w-[540px] shadow-[0_4px_30px_0px] shadow-ss-grey-900/10 space-y-5 p-[30px] bg-white rounded-xl border border-solid border-ss-blue/15">
+								<div class="flex flex-col sm:flex-row sm:space-x-5">
+									<div class="flex justify-center size-[70px] items-center rounded-full border border-solid border-ss-blue bg-ss-grey-100">
+										<span class="h4 mb-0 font-semibold uppercase">PH</span>
+									</div>
+									<div class="flex flex-col justify-center [&_p]:h4 [&_p]:mb-1">
+										<p>Patrice Holloway</p>
+										<ul class="list-none flex space-x-[2px] [&_i]:text-primary">
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+											<li><i class="icon-star"></i></li>
+										</ul>
+									</div>
+								</div>
+								<div class="[&_p]:text-sm [&_p]:text-ss-grey-900 [&_p]:font-light [&_p]:leading-7 [&_p]:line-clamp-3">
+									<p>Best day in Cabo. Booked for 6 hours. There were 6 of us. Boated on the Pacific side and saw. Whale breach out of season, sea turtles on the surface and caught a Dorado. Also were teased with a few Marlin fins.</p>
+									<a href="#content-5" class="capitalize" data-fancybox>Read more</a>
+									<div id="content-5" class="hidden">
+										<p>Best day in Cabo. Booked for 6 hours. There were 6 of us. Boated on the Pacific side and saw. Whale breach out of season, sea turtles on the surface and caught a Dorado. Also were teased with a few Marlin fins.</p>
+									</div>
+								</div>
+							</div>
+							<div class="w-full max-lg:mb-8 lg:w-auto lg:max-w-[601px] rounded-tl-[155px] overflow-hidden">
+								<figure class="[&_img]:w-full [&_img]:h-full">
+									<img src="<?php echo get_theme_file_uri(); ?>/assets/images/Patrice-Holloway.jpg" alt="Testimonal Featured Image" width="601" height="398" loading="lazy">
+								</figure>
 							</div>
 						</div>
 					</div>
@@ -657,16 +734,12 @@ include 'header-landing-page.php'; ?>
 					<div class="swiper-button-next"></div>
 				</div>
 			</div>
-			<figure class="lg:pt-8 [&_img]:w-full [&_img]:h-full">
-				<img src="<?php echo get_theme_file_uri(); ?>/assets/images/testimonial.jpg" alt="Testimonal Featured Image" width="601" height="398" loading="lazy">
-			</figure>
 			<figure class="absolute bottom-1/2 -translate-x-1/2 lg:bottom-0 lg:-translate-x-[82%] left-1/2">
 				<img src="<?php echo get_theme_file_uri(); ?>/assets/images/testimonial-bg.png" alt="Testimonal Featured Image" width="304" height="197" loading="lazy">
 			</figure>
 		</div>
 	</div>
 </section>
-<!-- /section {Testimonials} -->
 
 <div class="initialPopup w-full max-w-[800px] relative" style="display: none;">
 	<div class="before:absolute before:inset-0 before:bg-[linear-gradient(180deg,rgba(227,239,239,0.94)_0%,rgba(227,239,239,0.94)_100%)] absolute bg-cover bg-center inset-0 bg-[url('../images/waves-bg.jpg')]">

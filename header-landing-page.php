@@ -65,7 +65,7 @@
             <strong class="block text-primary font-medium">Luxury Yachts & Sailing Rentals in Cabo San Lucas, Mexico</strong>
             <p>Our dedicated crew is committed to exceed your expectations from this moment on. We invite you to choose either your desired boat or desired cruise below.</p>
             <div class="pt-6 ">
-              <a href="#herobooknow" class="btn btn-primary js-has-smooth relative overflow-hidden" data-fancybox>
+              <a href="#herobooknow" class="btn btn-primary relative overflow-hidden" data-fancybox>
                 <span class="absolute inset-0 bg-white"></span>
                 <span class="absolute inset-0 flex justify-center items-center">
                   Book Now

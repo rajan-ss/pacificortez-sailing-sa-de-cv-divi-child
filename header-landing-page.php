@@ -65,13 +65,16 @@
             <strong class="block text-primary font-medium">Luxury Yachts & Sailing Rentals in Cabo San Lucas, Mexico</strong>
             <p>Our dedicated crew is committed to exceed your expectations from this moment on. We invite you to choose either your desired boat or desired cruise below.</p>
             <div class="pt-6 ">
-              <a href="#contactForm" class="btn btn-primary js-has-smooth relative overflow-hidden">
+              <a href="#herobooknow" class="btn btn-primary js-has-smooth relative overflow-hidden" data-fancybox>
                 <span class="absolute inset-0 bg-white"></span>
                 <span class="absolute inset-0 flex justify-center items-center">
                   Book Now
                 </span>
                 Book Now
               </a>
+              <div id="herobooknow" class="hidden">
+                <iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/catalog/561444/private-yachts?iframe=true"></iframe>
+              </div>
             </div>
           </div>
           <div class="absolute right-0 bottom-[-9%] sm:bottom-[-11%] lg:bottom-[-18%] z-[-1] w-[90%] sm:w-[75%] lg:w-[60%] xl:w-[46.4%]">

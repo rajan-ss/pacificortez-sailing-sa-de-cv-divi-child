@@ -71,6 +71,7 @@
 			},
 		});
 
+
 		const swiper2 = new Swiper(".testimonial-slider", {
 			slidesPerView: 1,
 			spaceBetween: 32,
@@ -79,7 +80,18 @@
 				nextEl: ".swiper-button-next",
 				prevEl: ".swiper-button-prev",
 			},
+			on: {
+				// This event runs after the swiper initialization
+				init: function () {
+					setTimeout(() => {
+						document.querySelector('.testimonial-slider .swiper-button-next').classList.remove('swiper-button-lock');
+						document.querySelector('.testimonial-slider .swiper-button-prev').classList.remove('swiper-button-lock');
+					}, 2000);
+
+				},
+			}
 		});
+
 
 		// Services Section Slider
 		const swiper3 = new Swiper('.services-mySwiper', {

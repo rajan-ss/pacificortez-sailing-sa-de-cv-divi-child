@@ -49,20 +49,28 @@
             <h3>Message Us</h3>
           </div>
           <div class="px-6 md:px-12 pt-9 pb-12">
-            <?php //echo do_shortcode('[wpforms id="41390" title="false"]');?>
-            <?php echo do_shortcode('[wpforms id="41392" title="false"]');?>
+            <?php //echo do_shortcode('[wpforms id="41390" title="false"]');
+            ?>
+            <?php echo do_shortcode('[wpforms id="41392" title="false"]'); ?>
           </div>
         </div>
       </div>
     </div>
   </section>
   <div class="bg-ss-blue py-8">
-    <div class="container flex justify-between items-center">
-      <picture>
-        <img src="<?php echo get_theme_file_uri(); ?>/assets/images/footer-logo.png" alt="Footer Logo" width="117" height="72" loding="lazy">
-      </picture>
-      <div class="text-white [&_p]:mb-0">
-        <p>Copyright <?php echo date("Y"); ?> Cabo Sailing. All Rights Reserved By Cabo Sailing</p>
+    <div class="container flex">
+      <div class="flex flex-wrap justify-center lg:justify-between items-center gap-y-6 -mx-4">
+        <div class="lg:w-[15%] xl:w-[12%] px-4">
+          <picture>
+            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/footer-logo.png" alt="Footer Logo" width="117" height="72" loding="lazy">
+          </picture>
+        </div>
+        <div class="text-white text-center lg:text-left lg:w-[40%] last:[&_p]:mb-0 text-sm leading-7 font-light px-4">
+          <p>We require 24-hour cancellation with 100% refund. Because we reserve time especially for you, please let us know about any changes in your schedule as early as you can.</p>
+        </div>
+        <div class="text-white text-center lg:text-left [&_p]:mb-0 lg:w-[45%] text-base px-4">
+          <p>Copyright <?php echo date("Y"); ?> Cabo Sailing. All Rights Reserved By Cabo Sailing</p>
+        </div>
       </div>
     </div>
   </div>

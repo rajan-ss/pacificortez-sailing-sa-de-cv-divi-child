@@ -235,7 +235,7 @@ include 'header-landing-page-new.php'; ?>
 		</div>
 		<div class="flex justify-center flex-wrap relative -mx-5 gap-y-5 lg:gap-y-7 2xl:gap-y-10"> <!-- Card Wrapper -->
 			<div class="w-full md:w-1/2 lg:w-1/3 h-auto px-5">
-				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-light-gray-100 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 xl:pt-11 pb-8 md:pb-7 lg:pb-10 px-4 lg:px-5 xl:px-6 [&_h3]:h4 [&_h3]:lg:text-2xl [&_h3]:text-ss-blue [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:font-base [&_h4]:mb-0 [&_h4]:text-base [&_h4]:text-base md:[&_h4]:text-lg [&_h4]:leading-[25px] [&_h4]:font-normal">
+				<div class="h-full bg-ss-grey-100 border-solid border-2 border-ss-light-gray-100 text-center rounded-2xl pt-5 md:pt-7 lg:pt-9 xl:pt-11 pb-8 md:pb-7 lg:pb-10 px-4 lg:px-5 xl:px-6 [&_h3]:h4 [&_h3]:lg:text-2xl [&_h3]:text-ss-blue [&_h3]:pb-4 [&_h3]:border-solid [&_h3]:border-b [&_h3]:border-[rgba(0,_0,_0,_0.08)] [&_h3]:mb-4 [&_h4]:font-base [&_h4]:mb-0 [&_h4]:text-base md:[&_h4]:text-lg [&_h4]:leading-[25px] [&_h4]:font-normal">
 					<h3>Luxurious Boats</h3>
 					<h4>Sail Away in Luxury</h4>
 				</div>

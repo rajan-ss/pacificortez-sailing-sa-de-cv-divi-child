@@ -41,6 +41,36 @@
 			}
 		})
 
+		// stickyHeader
+		var stickyHeader = function () {
+			var height = $(window).scrollTop();
+			var header = $(".site-header");
+			if (height > 60) {
+				header.addClass("stickyHeader");
+			} else {
+				header.removeClass("stickyHeader");
+			}
+		};
+
+		// Initial call
+		stickyHeader()
+
+		// Debounce function to limit calls during events
+		function debounce(func, wait) {
+			var timeout;
+			return function () {
+				var context = this, args = arguments;
+				clearTimeout(timeout);
+				timeout = setTimeout(function () {
+					func.apply(context, args);
+				}, wait);
+			};
+		}
+
+		// Apply debounced stickyHeader to events
+		$(window).scroll(debounce(stickyHeader, 50));
+		$(window).resize(debounce(stickyHeader, 100));
+
 		function stickyFooter() {
 			let stickyFooter = $('.sticky-footer')
 			let stickyFooterHeight = stickyFooter.innerHeight()
@@ -57,22 +87,34 @@
 			}, 250)
 		})
 
-		const swiper = new Swiper('.banner-slider', {
+		const bannerSwiper = new Swiper('.banner-slider', {
 			// Optional parameters
 			loop: true,
-			autoplay: {
-				delay: 6000,
-				disableOnInteraction: false,
-			},
-
+			autoHeight: true,
+			slidesPerView: 1,
+	
+			// If we need pagination
 			pagination: {
-				el: ".swiper-pagination",
+				el: '.swiper-pagination',
 				clickable: true,
 			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			on: {
+				// This event runs after the swiper initialization
+				init: function () {
+					setTimeout(() => {
+						document.querySelector('.banner-slider .swiper-button-next').classList.remove('swiper-button-lock');
+						document.querySelector('.banner-slider .swiper-button-prev').classList.remove('swiper-button-lock');
+					}, 2000);
+
+				},
+			}
 		});
 
-
-		const swiper2 = new Swiper(".testimonial-slider", {
+		const testimonialSwiper = new Swiper(".testimonial-slider", {
 			slidesPerView: 1,
 			spaceBetween: 32,
 			loop: true,
@@ -94,7 +136,7 @@
 
 
 		// Services Section Slider
-		const swiper3 = new Swiper('.services-mySwiper', {
+		const serviceSwiper = new Swiper('.services-mySwiper', {
 			slidesPerView: 1,
 			loop: true,
 			// centeredSlides: true,
@@ -126,7 +168,7 @@
 		const dropbtn = document.querySelector('.dropBtn')
 		const dropdownContent = document.querySelector('.tabNav')
 
-		$('a.enabled').on('click',function(){
+		$('a.enabled').on('click', function () {
 			window.open($(this).attr('href'))
 		})
 
@@ -187,5 +229,34 @@
 			}, 8000);
 		}
 		// openFancybox();
+
+		function initBurgerMenu() {
+			const holder = document.querySelector('body')
+			const opener = document.querySelector('.opener')
+			const activeClass = 'nav-active'
+			const drop = document.querySelector('.nav-holder')
+			const navLinks = document.querySelectorAll('.nav-list li a')
+
+			opener.addEventListener('click', (event) => trackAction())
+
+			const trackAction = () => {
+				event.preventDefault()
+				holder.classList.toggle(activeClass)
+			}
+			document.addEventListener('click', (e) => {
+				const isClickInside = opener.contains(e.target) || drop.contains(e.target)
+				if (!isClickInside) {
+					holder.classList.remove(activeClass)
+				}
+			})
+
+			navLinks.forEach((link) => {
+				link.addEventListener('click', () => {
+					holder.classList.remove(activeClass)
+				})
+			})
+		}
+
+		initBurgerMenu();
 	})
 }(jQuery));

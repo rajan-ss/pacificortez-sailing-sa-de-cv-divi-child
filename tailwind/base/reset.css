@@ -5,7 +5,7 @@
   }
 
   body {
-    @apply min-w-[320px] font-base font-light antialiased text-base text-ss-grey leading-[1.75];
+    @apply min-w-[320px] font-base font-light antialiased text-sm md:text-base text-ss-grey leading-[1.75];
   }
 
   p {

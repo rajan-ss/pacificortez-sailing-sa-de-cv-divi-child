@@ -66,4 +66,18 @@
 	.btn-block {
 		@apply block w-full;
 	}
+
+	.btn-transparent {
+		@apply bg-transparent
+		text-white
+		border-primary
+		hover:bg-primary
+		hover:text-white
+		hover:border-primary
+		hover:[box-shadow:0px_8px_24px_0px_rgba(239,_205,_72,_0.24)]
+		focus:text-white
+		focus:bg-primary/75
+		focus:border-primary/75
+		focus:ring-primary/75;
+	}
 }

@@ -1,11 +1,3 @@
-/* .non-cbd-swiper .swiper-button-prev, .non-cbd-swiper .swiper-button-next{
-  @apply relative border border-solid border-white rounded-full size-10 text-white after:text-xl p-3 after:font-icomoon after:content-['\e909'];
-}
-
-.non-cbd-swiper .swiper-button-next{
-  @apply after:content-['\e908'];
-} */
-
 .swiper.banner-slider .swiper-pagination {
   @apply
   items-center
@@ -45,12 +37,17 @@
   @apply after:content-['\e908'];
 }
 
-.services-swiper .swiper-button-prev, .services-swiper .swiper-button-next{
-  @apply border border-solid border-ss-blue rounded-full size-10 text-ss-blue after:text-xl p-3 after:font-icomoon after:content-['\e908'] static m-0;
+.services-swiper .swiper-button-prev,
+.services-swiper .swiper-button-next {
+  @apply border border-solid border-ss-blue rounded-full size-10 text-ss-blue after:text-xl p-3 after:font-icomoon after:content-['\e909'] static m-0;
 }
 
-.services-swiper .swiper-button-next{
-  @apply after:content-['\e909'];
+.services-swiper .swiper-button-next {
+  @apply after:content-['\e908'];
+}
+
+.services-swiper.navigation-buttons {
+  @apply space-x-4;
 }
 
 .services-swiper .swiper-slide{
@@ -64,6 +61,54 @@
 }
 
 .services-swiper .swiper-button-next, .swiper-button-prev{
+  @apply
+  hover:bg-primary
+  focus:bg-primary
+  hover:border-transparent
+  focus:border-transparent
+  duration-300;
+}
+
+.swiper.banner-slider .navigation-buttons {
+  @apply absolute left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:right-10 bottom-12 sm:bottom-16 z-[11];
+}
+
+.swiper.banner-slider .navigation-buttons,
+.testimonial-slider .navigation-buttons{
+  @apply flex min-h-[52px] space-x-10;
+}
+
+.swiper.banner-slider .swiper-slide-active {
+  @apply shadow-[0_4px_30px_0px] shadow-ss-grey-900/10;
+}
+
+.swiper.banner-slider .swiper-button-prev,
+.swiper.banner-slider .swiper-button-next,
+.testimonial-slider .swiper-button-prev, 
+.testimonial-slider .swiper-button-next{
+  @apply relative bg-white rounded-full size-12 text-black after:text-xl p-3 after:font-icomoon after:content-['\e909'] hover:bg-primary;
+}
+
+.swiper.banner-slider .swiper-button-next,
+.testimonial-slider .swiper-button-next{
+  @apply after:content-['\e908'];
+}
+
+.services-swiper .swiper-slide{
+  @apply
+  duration-500
+  ease-in-out;
+}
+
+.services-swiper.navigation-buttons{
+  @apply space-x-4;
+}
+
+.swiper-slide.swiper-slide-active .card {
+  @apply shadow-lg;
+}
+
+.services-swiper .swiper-button-next, .swiper-button-prev {
   @apply
   hover:bg-primary
   focus:bg-primary

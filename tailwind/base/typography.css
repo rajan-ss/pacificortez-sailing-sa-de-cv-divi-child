@@ -5,7 +5,7 @@
   h4,
   h5,
   h6 {
-    @apply font-lead font-bold leading-tight mb-4 text-black;
+    @apply font-lead font-bold leading-tight mb-4 text-black pb-0;
   }
 
   h1,

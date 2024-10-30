@@ -1,0 +1,146 @@
+body.nav-active {
+    @apply overflow-hidden;
+}
+
+html.resize-active * {
+    @apply transition-none;
+}
+
+.site-header .top-header {
+    @apply pt-4 bg-black pb-4 flex items-center justify-between flex-wrap;
+}
+
+.site-header {
+    @apply
+    fixed
+    top-0
+    left-0
+    right-0
+    z-50
+    ;
+}
+
+.site-header.stickyHeader {
+    @apply shadow-lg;
+}
+
+.header-bottom .container {
+    @apply flex items-center justify-between relative;
+}
+
+.contact-btn {
+    @apply w-full lg:w-auto [&_.btn]:w-full lg:[&_.btn]:w-auto 
+}
+
+.nav-holder {
+    @apply 
+    flex-1
+    bg-white
+    lg:bg-transparent
+    fixed
+    lg:static
+    left-0
+    right-0
+    bottom-0
+    overflow-hidden
+    overflow-y-auto
+    [.nav-active_&]:h-full
+    h-0
+    invisible
+    lg:visible
+    pointer-events-none
+    lg:h-auto
+    lg:pointer-events-auto
+    [.nav-active_&]:visible
+    [.nav-active_&]:pointer-events-auto
+    transition-all
+    duration-700 
+    z-[-1]
+    lg:z-0
+    ;
+}
+
+.nav {
+    @apply flex-1
+    pt-[161px]
+    p-4
+    lg:p-0
+    sm:px-4
+    sm:max-w-[768px]
+    lg:max-w-none
+    mx-auto
+    lg:mx-0
+    block
+    lg:flex
+    lg:items-center
+    flex-wrap
+    lg:justify-between
+    lg:pl-[3%]
+    xl:pl-[7%]
+    ;
+}
+
+.nav-list {
+    @apply lg:flex flex-wrap items-center
+    [&_li]:mb-4 
+    lg:[&_li]:mb-0 
+    mb-8
+    lg:mb-0
+    text-lg
+    w-full
+    lg:w-auto
+    md:gap-[3%]
+    lg:gap-[4%]
+    justify-center
+    xl:justify-end
+    [&_a]:text-black
+    hover:[&_a]:text-primary
+    lg:text-sm
+    xl:text-base
+    flex-1
+    /* pr-5 */
+    ;
+}
+
+.opener {
+	@apply
+    block
+    absolute
+    top-1/2
+    right-[16px]
+    -translate-y-1/2
+    w-[40px]
+    h-[30px]
+    before:left-2
+    before:right-2
+    before:top-2
+    before:h-[2px]
+    before:bg-black
+    /* before:[.nav-active_&]:bg-white */
+    /* [&_span_.nav-active_&]:bg-white */
+    before:absolute
+    after:left-2
+    after:right-2
+    after:top-1/2
+    after:[.nav-active_&]:hidden
+    after:-translate-y-1/2
+    after:h-[2px]
+    after:bg-black
+    after:absolute
+    [&_span]:left-2
+    [&_span]:right-2
+    [&_span]:bottom-2
+    [&_span]:h-[2px]
+    [&_span]:bg-black
+    [&_span]:absolute
+    lg:hidden
+    after:transition-all
+    before:transition-all
+    [&_span]:transition-all
+}
+
+body.nav-active .opener {
+    @apply [&_span]:-rotate-45 [&_span]:-translate-y-1/2 [&_span]:top-1/2 
+    before:rotate-45 before:-translate-y-1/2 before:top-1/2
+    ;
+}

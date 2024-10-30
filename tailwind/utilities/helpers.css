@@ -68,3 +68,31 @@
   max-w-[800px]
   w-full;
 }
+
+
+.luxury-tab .active:after {
+  @apply
+  opacity-100
+  ;
+} 
+
+.luxury-tab .active:before {
+  @apply
+  opacity-100;
+}
+
+.dot-list {
+  @apply list-none m-0 p-0;
+}
+
+.dot-list li {
+  @apply relative pl-5 lg:pl-6 before:absolute before:left-0 before:top-2.5 lg:before:top-[9px] before:bg-primary before:w-2 lg:before:w-[10px] before:h-2 lg:before:h-[10px] before:rounded-full;
+}
+
+.list-check {
+  @apply list-none p-0;
+}
+
+.list-check li {
+  @apply relative pl-6 lg:pl-7 mb-3 lg:mb-4 last:mb-0 before:bg-[url("../../assets/images/check-icon.svg")] before:absolute before:left-0 before:top-[3px] before:w-5 before:h-5 before:bg-no-repeat before:bg-cover;
+}

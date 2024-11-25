@@ -228,7 +228,7 @@
 				$('.initialPopup').fancybox().trigger('click');
 			}, 8000);
 		}
-		// openFancybox();
+		openFancybox();
 
 		function initBurgerMenu() {
 			const holder = document.querySelector('body')

@@ -703,7 +703,7 @@ include 'header-landing-page-new.php'; ?>
 </section>
 <!-- /Section {Testimonials Slider}  -->
 
-<div class="initialPopup w-full max-w-[800px] relative" style="display: none;">
+<!-- <div class="initialPopup w-full max-w-[800px] relative" style="display: none;">
 	<div class="before:absolute before:inset-0 before:bg-[linear-gradient(180deg,rgba(227,239,239,0.94)_0%,rgba(227,239,239,0.94)_100%)] absolute bg-cover bg-center inset-0 bg-[url('../images/waves-bg.jpg')]">
 	</div>
 	<div class="[&_h2]:text-[28px] [&_h2]:text-ss-red [&_h2]:italic text-center relative z-[1]">
@@ -735,6 +735,24 @@ include 'header-landing-page-new.php'; ?>
 				</a>
 			</li>
 		</ul>
+	</div>
+</div> -->
+
+<div class="initialPopup bg-cover bg-center w-full relative" style="display: none; background-image: url('<?php echo get_theme_file_uri(); ?>/assets/images/bg_popup.jpg')">
+	<div class=" [&_h2]:text-2xl [&_h2]:font-normal lg:[&_h2]:text-[35px] [&_h2]:text-white text-center relative z-[1]">
+		<h2>Wait! Get 10% off your first boat tour. Book now!</h2>
+		<figure class="mb-4">
+			<img src="<?php echo get_theme_file_uri(); ?>/assets/images/sea-ray.jpg" alt="feature Images" width="765" height="242" loading="lazy">
+		</figure>
+		<div class="">
+			<a href="https://www.cabosailing.com/book-now/" class="btn btn-secondary relative overflow-hidden enabled">
+				<span class="absolute inset-0 bg-white"></span>
+				<span class="absolute inset-0 flex justify-center items-center">
+					Book Now!
+				</span>
+				Book Now!
+			</a>
+		</div>
 	</div>
 </div>
 

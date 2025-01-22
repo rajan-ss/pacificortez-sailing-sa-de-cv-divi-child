@@ -92,7 +92,7 @@
 			loop: true,
 			autoHeight: true,
 			slidesPerView: 1,
-	
+
 			// If we need pagination
 			pagination: {
 				el: '.swiper-pagination',
@@ -225,9 +225,18 @@
 
 		function openFancybox() {
 			setTimeout(function () {
-				$('.initialPopup').fancybox().trigger('click');
+				$.fancybox.open({
+					src: '.initialPopup',
+					type: 'inline',
+					touch: false,
+					autoFocus: false,
+					afterClose: function () {
+						console.log('Initial popup closed.');
+					},
+				});
 			}, 8000);
 		}
+
 		openFancybox();
 
 		function initBurgerMenu() {

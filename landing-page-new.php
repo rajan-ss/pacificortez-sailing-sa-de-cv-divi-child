@@ -737,7 +737,7 @@ include 'header-landing-page-new.php'; ?>
 		</ul>
 	</div>
 </div> -->
-
+ 
 <div class="initialPopup bg-cover bg-center w-full relative" style="display: none; background-image: url('<?php echo get_theme_file_uri(); ?>/assets/images/bg_popup.jpg')">
 	<div class=" [&_h2]:text-2xl [&_h2]:font-normal lg:[&_h2]:text-[35px] [&_h2]:text-white text-center relative z-[1]">
 		<h2>Wait! Get 10% off your first boat tour. Book now!</h2>
@@ -745,13 +745,17 @@ include 'header-landing-page-new.php'; ?>
 			<img src="<?php echo get_theme_file_uri(); ?>/assets/images/sea-ray.jpg" alt="feature Images" width="765" height="242" loading="lazy">
 		</figure>
 		<div class="">
-			<a href="https://www.cabosailing.com/book-now/" class="btn btn-secondary relative overflow-hidden enabled">
+			<a href="#reservation" data-fancybox class="secondary-fancybox btn btn-secondary relative overflow-hidden">
 				<span class="absolute inset-0 bg-white"></span>
 				<span class="absolute inset-0 flex justify-center items-center">
 					Book Now!
 				</span>
 				Book Now!
 			</a>
+
+			<div id="reservation" class="hidden">
+				<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/catalog/561444/private-yachts?iframe=true"></iframe>
+			</div>
 		</div>
 	</div>
 </div>

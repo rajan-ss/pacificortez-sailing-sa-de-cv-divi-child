@@ -48,13 +48,16 @@ include 'header-landing-page-new.php'; ?>
 									<li>Experience the best of Cabo San Lucas with our Cabo yacht charters! Ranging from 42 to 46 feet, our Cabo yacht rentals are custom-built for maximum comfort and smooth cruising. </li>
 									<li>We offer multiple cruises per day and you will have the option to choose your activity including Cabo snorkeling or a Cabo sunset cruise. This luxurious Cabo boat tour is a must-do experience while visiting Cabo San Lucas</li>
 								</ul>
-								<a href="#contactForm" class="js-has-smooth btn btn-white relative overflow-hidden">
+								<a href="#private-yachts" data-fancybox class="btn btn-white relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
 									</span>
 									Book Now
 								</a>
+								<div id="private-yachts" class="hidden">
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/catalog/561444/private-yachts?iframe=true"></iframe>
+								</div>
 							</div>
 						</div>
 						<div class="lg:w-1/2 w-full max-lg:mb-6">
@@ -74,13 +77,16 @@ include 'header-landing-page-new.php'; ?>
 									<li>Cap. 14 guests.</li>
 									<li>Explore the sparkling turquoise waters of the Sea of Cortez on this sightseeing snorkel adventure or romantic Sunset Cruise of Los Cabos’ Land’s End Arch!</li>
 								</ul>
-								<a href="#contactForm" class="js-has-smooth btn btn-white relative overflow-hidden">
+								<a href="#Snorkeling-popup" data-fancybox class="btn btn-white relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
 									</span>
 									Book Now
 								</a>
+								<div id="Snorkeling-popup" class="hidden">
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/catalog/561442/shared-sailing?iframe=true"></iframe>
+								</div>
 							</div>
 						</div>
 						<div class="lg:w-1/2 w-full max-lg:mb-6">
@@ -100,13 +106,16 @@ include 'header-landing-page-new.php'; ?>
 									<li>Unlimited Bar, Paddle-Board & Snorkeling Gear</li>
 									<li>Sail Cabo San Lucas on a beautiful private 38 feet sailing boat and snorkel in tropical waters alongside colorful sea life.</li>
 								</ul>
-								<a href="#contactForm" class="js-has-smooth btn btn-white relative overflow-hidden">
+								<a href="#private-sailing-popup" data-fancybox class="btn btn-white relative overflow-hidden">
 									<span class="absolute inset-0 bg-ss-blue"></span>
 									<span class="absolute inset-0 flex justify-center items-center">
 										Book Now
 									</span>
 									Book Now
 								</a>
+								<div id="private-sailing-popup" class="hidden">
+									<iframe seamless="" width="100%" height="1000px" frameborder="0" class="rezdy" src="https://cabosailing.rezdy.com/catalog/150542/private-sailing?iframe=true"></iframe>
+								</div>
 							</div>
 						</div>
 						<div class="lg:w-1/2 w-full max-lg:mb-6">

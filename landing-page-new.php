@@ -170,13 +170,13 @@ include 'header-landing-page-new.php'; ?>
 				<div class="swiper-slide h-auto">
 					<div class="h-full p-5 pb-8 bg-gray-100 rounded border-solid border border-primary card-shadow card">
 						<picture class="pb-8 [&_img]:w-full [&_img]:rounded-lg [&_img]:overflow-hidden [&_img]:object-cover [&_img]:object-center [&_img]:h-[276px]">
-							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" type="image/jpg">
-							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-03.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
+							<source srcset="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-04.jpg" type="image/jpg">
+							<img src="<?php echo get_theme_file_uri(); ?>/assets/images/cabo-snorkeling-img-04.jpg" alt="Cabo Snorkeling Feature Img" width="370" height="280" loading="lazy">
 						</picture>
 						<div class="[&_h4]:text-ss-blue [&_h4]:border-solid [&_h4]:border-b [&_h4]:border-black/10 [&_h4]:pb-4 [&_h4]:mb-4">
-							<h4>Whale Watching</h4>
-							<h6>Discover the Majestic Whales of Cabo</h6>
-							<p>Be awestruck as you encounter the gentle giants of the deep. From December through April, watch in wonder as the humpback whales breach the surface, showcasing their sheer size and power.</p>
+							<h4>Custom Experience</h4>
+							<h6>Tailored Especially For you</h6>
+							<p>Together, let's craft your perfect Cabo experience. From family reunions and marriage proposals to birthdays and bachelor/bachelorette parties, we specialize in creating personalized charters that cater to your needs. Let us help you make magic happen on the water! Contact us today to start planning your custom experience.</p>
 						</div>
 					</div>
 				</div>
